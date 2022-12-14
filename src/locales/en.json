@@ -1,0 +1,12 @@
+{
+  "hero_button": "Scroll down to discover more",
+  "introduction": "My name is Jop Bertrams, 20 years old, and I am a software engineering student. I have been studying ICT for the past few years at Fontys University of Applied Sciences in Eindhoven, and have developed a strong foundation in the principles and techniques of software development. I am excited to share with you some of the projects I have worked on during my study, which showcase my abilities in areas such as problem-solving, coding, and collaboration. I am eager to continue learning and growing as a software engineer, and I hope to use my skills to create innovative and impactful technology solutions in the future.",
+  "project_title_safespace": "SafeSpace",
+  "projects": {
+    "safespace": {
+      "title": "SafeSpace",
+      "description": "SafeSpace is a web application that allows users to anonymously report and view incidents of sexual harassment and assault on campus. The application was developed as part of a group project for the course Software Engineering 2 at Fontys University of Applied Sciences. I was responsible for the development of the frontend, which was built using React and Redux. I also worked on the backend, which was built using Node.js and Express. The application was deployed using Docker and AWS.",
+      "image": "https://jordyarntz.com/img/safespace/safespace-grid-1-logo.jpg"
+    }
+  }
+}
