@@ -1,8 +1,12 @@
+<script>
+  import { _ } from 'svelte-i18n';
+</script>
+
 <div class="skills">
   <div class="skills-container">
-    <h1>Skills</h1>
+    <h1>{$_('skills')}</h1>
     <div class="skills-grid">
-      <div class="skills-grid-item">
+      <div class="skills-grid-item" data-aos="fade-down-right">
         <div class="skills-grid-item-container">
           <h3>HTML</h3>
           <div class="skills-grid-item-container-bar">
@@ -11,7 +15,7 @@
           </div>
         </div>
       </div>
-      <div class="skills-grid-item">
+      <div class="skills-grid-item" data-aos="fade-down">
         <div class="skills-grid-item-container">
           <h3>CSS</h3>
           <div class="skills-grid-item-container-bar">
@@ -20,7 +24,7 @@
           </div>
         </div>
       </div>
-      <div class="skills-grid-item">
+      <div class="skills-grid-item" data-aos="fade-down-left">
         <div class="skills-grid-item-container">
           <h3>JavaScript</h3>
           <div class="skills-grid-item-container-bar">
@@ -29,7 +33,7 @@
           </div>
         </div>
       </div>
-      <div class="skills-grid-item">
+      <div class="skills-grid-item" data-aos="fade-right">
         <div class="skills-grid-item-container">
           <h3>Node.js</h3>
           <div class="skills-grid-item-container-bar">
@@ -38,16 +42,16 @@
           </div>
         </div>
       </div>
-      <div class="skills-grid-item">
+      <div class="skills-grid-item" data-aos="zoom-in">
         <div class="skills-grid-item-container">
           <h3>Svelte</h3>
           <div class="skills-grid-item-container-bar">
             <div class="skills-grid-item-container-bar-fill svelte" />
-            <span class="tooltiptext">4/10</span>
+            <span class="tooltiptext">6/10</span>
           </div>
         </div>
       </div>
-      <div class="skills-grid-item">
+      <div class="skills-grid-item" data-aos="fade-left">
         <div class="skills-grid-item-container">
           <h3>Vue.js</h3>
           <div class="skills-grid-item-container-bar">
@@ -56,7 +60,7 @@
           </div>
         </div>
       </div>
-      <div class="skills-grid-item">
+      <div class="skills-grid-item" data-aos="fade-up-right">
         <div class="skills-grid-item-container">
           <h3>.NET (C#)</h3>
           <div class="skills-grid-item-container-bar">
@@ -65,16 +69,16 @@
           </div>
         </div>
       </div>
-      <div class="skills-grid-item">
+      <div class="skills-grid-item" data-aos="fade-up">
         <div class="skills-grid-item-container">
-          <h3>Xamarin</h3>
+          <h3>Oracle Cloud</h3>
           <div class="skills-grid-item-container-bar">
-            <div class="skills-grid-item-container-bar-fill xamarin" />
+            <div class="skills-grid-item-container-bar-fill oracle" />
             <span class="tooltiptext">4/10</span>
           </div>
         </div>
       </div>
-      <div class="skills-grid-item">
+      <div class="skills-grid-item" data-aos="fade-up-left">
         <div class="skills-grid-item-container">
           <h3>Docker & Kubernetes</h3>
           <div class="skills-grid-item-container-bar">
@@ -92,6 +96,7 @@
     padding: 2rem;
     background-color: #0b1216;
     color: #ffffff;
+    overflow: hidden;
   }
 
   .skills-container {
@@ -195,7 +200,7 @@
   }
 
   .svelte {
-    width: 40%;
+    width: 60%;
     background-color: #ff3c00;
   }
 
@@ -204,9 +209,9 @@
     background-color: #5c2d91;
   }
 
-  .xamarin {
+  .oracle {
     width: 40%;
-    background-color: #3498db;
+    background-color: #ee1d24;
   }
 
   .docker {
@@ -214,21 +219,35 @@
     background-color: #2497ed;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1007px) {
+    .skills-grid {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+  }
+
+  @media screen and (max-width: 857px) {
     .skills-grid {
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 725px) and (min-width: 504px) {
     .skills-grid {
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .skills-grid-item {
+      grid-column: span 2;
+    }
+
+    .skills-grid-item:nth-last-child(1):nth-child(odd) {
+      grid-column: 2 / span 2;
     }
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 504px) {
     .skills-grid {
-      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      grid-template-columns: repeat(1, 1fr);
     }
   }
 </style>

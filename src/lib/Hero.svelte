@@ -37,11 +37,10 @@
         <h1>Jop Bertrams</h1>
         <h2 class="typing">Full Stack Web Developer.</h2>
         <p>
-          20 years old software engineering student, living in the Netherlands.
-          Skilled in .NET technologies and more.
+          {$_('hero_text')}
         </p>
         <button class="button" on:click={scrollToIntroduction}
-          ><span>{$_('hero_button')} </span></button
+          ><span>{$_('hero_button')}</span></button
         >
       </div>
     </div>
@@ -75,27 +74,6 @@
     height: 100vh;
     width: 100%;
   }
-
-  /* .hero-left {
-    width: 60%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-
-    background: linear-gradient(to right, white 4px, transparent 4px) 20% 40%,
-      linear-gradient(to bottom, white 4px, transparent 4px) 20% 40%,
-      linear-gradient(to left, #ffffff 4px, transparent 4px) 80% 70%,
-      linear-gradient(to top, #ffffff 4px, transparent 4px) 80% 70%;
-
-    background-repeat: no-repeat;
-    background-size: 30% 30%;
-  }
-
-  .hero-left p {
-    font-size: 20px;
-    text-align: center;
-    width: 50%;
-  } */
 
   .hero-left {
     width: 60%;
@@ -274,6 +252,8 @@
     .hero-text > :first-child::after,
     .hero-text > :first-child::before {
       border: none;
+      display: none;
+      opacity: 0;
     }
 
     .hero-image {
@@ -289,6 +269,10 @@
       top: 50%;
       left: 50%;
       transform: translate(-70%, 10%) scale(2.3);
+    }
+
+    .hero-text h2 {
+      font-size: 24px;
     }
   }
 </style>

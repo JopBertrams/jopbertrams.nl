@@ -1,11 +1,15 @@
 <script>
-  import helloworld from '../assets/helloworld.svg';
   import globe from '../assets/globe.svg';
   import { _ } from 'svelte-i18n';
 </script>
 
 <div class="introduction">
-  <div class="container">
+  <div
+    class="container"
+    data-aos="fade-up"
+    data-aos-offset="400"
+    data-aos-duration="1000"
+  >
     <div class="image">
       <img src={globe} alt="hello" />
     </div>

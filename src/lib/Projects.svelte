@@ -1,129 +1,105 @@
 <script>
   import { writable } from 'svelte/store';
   import Modal, { bind } from 'svelte-simple-modal';
-  import Popup from './Popup.svelte';
+  import Popup from './ProjectPopup.svelte';
   const modal = writable(null);
   const showModal = (project) => {
     // @ts-ignore
     modal.set(bind(Popup, { project: project }));
   };
-  import helloworld from '../assets/helloworld.svg';
   import { _ } from 'svelte-i18n';
 </script>
 
-<Modal show={$modal} />
+<Modal
+  show={$modal}
+  on:closing={() => {}}
+  styleBg={{ backgroundColor: 'rgba(0, 0, 0, 1)' }}
+  styleWindow={{ width: '90%', maxWidth: '900px' }}
+  styleCloseButton={{ margin: '10px' }}
+/>
 <div class="projects">
-  <h1>Projects</h1>
+  <h1 class="title">{$_('projects.header')}</h1>
   <div class="grid-container">
-    <div class="grid-item">
+    <div class="grid-item" data-aos="zoom-in-right">
       <div class="text">
         <div class="text-container">
           <h2>SafeSpace</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            voluptates, quod, quia, voluptate quae voluptatem quibusdam
-            voluptatibus quos quas quidem nesciunt. Quisquam, quae. Quisquam
-            voluptates, quod, quia, voluptate quae voluptatem quibusdam
-            voluptatibus quos quas quidem nesciunt. Quisquam, quae.
+            {$_('projects.safespace.short_description')}
           </p>
           <button on:click={() => showModal('safespace')}>Learn more...</button>
         </div>
       </div>
     </div>
-    <div class="grid-item">
+    <div class="grid-item" data-aos="zoom-in-left">
       <div class="text">
         <div class="text-container">
           <h2>Chatbot</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            voluptates, quod, quia, voluptate quae voluptatem quibusdam
-            voluptatibus quos quas quidem nesciunt. Quisquam, quae. Quisquam
-            voluptates, quod, quia, voluptate quae voluptatem quibusdam
-            voluptatibus quos quas quidem nesciunt. Quisquam, quae.
-          </p>
+          <p>{$_('projects.chatbot.short_description')}</p>
           <button on:click={() => showModal('chatbot')}>Learn more...</button>
         </div>
       </div>
     </div>
-    <div class="grid-item">
+    <div class="grid-item" data-aos="zoom-in-right">
       <div class="text">
         <div class="text-container">
           <h2>FlightAssistant</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            voluptates, quod, quia, voluptate quae voluptatem quibusdam
-            voluptatibus quos quas quidem nesciunt. Quisquam, quae. Quisquam
-            voluptates, quod, quia, voluptate quae voluptatem quibusdam
-            voluptatibus quos quas quidem nesciunt. Quisquam, quae.
-          </p>
+          <p>{$_('projects.flightassistant.short_description')}</p>
           <button on:click={() => showModal('flightassistant')}
             >Learn more...</button
           >
         </div>
       </div>
     </div>
-    <div class="grid-item">
+    <div class="grid-item" data-aos="zoom-in-left">
       <div class="text">
         <div class="text-container">
           <h2>LokaWin</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            voluptates, quod, quia, voluptate quae voluptatem quibusdam
-            voluptatibus quos quas quidem nesciunt. Quisquam, quae. Quisquam
-            voluptates, quod, quia, voluptate quae voluptatem quibusdam
-            voluptatibus quos quas quidem nesciunt. Quisquam, quae.
-          </p>
+          <p>{$_('projects.lokawin.short_description')}</p>
           <button on:click={() => showModal('lokawin')}>Learn more...</button>
         </div>
       </div>
     </div>
-    <div class="grid-item">
+    <div class="grid-item" data-aos="zoom-in-right">
       <div class="text">
         <div class="text-container">
           <h2>Smart Asset Tracking</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            voluptates, quod, quia, voluptate quae voluptatem quibusdam
-            voluptatibus quos quas quidem nesciunt. Quisquam, quae. Quisquam
-            voluptates, quod, quia, voluptate quae voluptatem quibusdam
-            voluptatibus quos quas quidem nesciunt. Quisquam, quae.
-          </p>
+          <p>{$_('projects.smartassettracking.short_description')}</p>
           <button on:click={() => showModal('smartassettracking')}
             >Learn more...</button
           >
         </div>
       </div>
     </div>
-    <div class="grid-item">
+    <div class="grid-item" data-aos="zoom-in-left">
       <div class="text">
         <div class="text-container">
           <h2>Car Rental</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            voluptates, quod, quia, voluptate quae voluptatem quibusdam
-            voluptatibus quos quas quidem nesciunt. Quisquam, quae. Quisquam
-            voluptates, quod, quia, voluptate quae voluptatem quibusdam
-            voluptatibus quos quas quidem nesciunt. Quisquam, quae.
-          </p>
+          <p>{$_('projects.carrental.short_description')}</p>
           <button on:click={() => showModal('carrental')}>Learn more...</button>
         </div>
       </div>
     </div>
-    <div class="grid-item">
+    <!-- <div class="grid-item" data-aos="zoom-in-right">
       <div class="text">
         <div class="text-container">
           <h2>Kwetter</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            voluptates, quod, quia, voluptate quae voluptatem quibusdam
-            voluptatibus quos quas quidem nesciunt. Quisquam, quae. Quisquam
-            voluptates, quod, quia, voluptate quae voluptatem quibusdam
-            voluptatibus quos quas quidem nesciunt. Quisquam, quae.
-          </p>
+          <p>{$_('projects.kwetter.short_description')}</p>
           <button on:click={() => showModal('kwetter')}>Learn more...</button>
         </div>
       </div>
     </div>
+    <div class="grid-item" data-aos="zoom-in-left">
+      <div class="text">
+        <div class="text-container">
+          <h2>De Oefenpraktijk</h2>
+          <p>{$_('projects.oefenpraktijk.short_description')}</p>
+          <button on:click={() => showModal('oefenpraktijk')}
+            >Learn more...</button
+          >
+        </div>
+      </div>
+    </div> -->
   </div>
 </div>
 
@@ -136,7 +112,7 @@
     width: 100%;
   }
 
-  h1 {
+  .title {
     margin: 60px 0;
   }
 
@@ -144,7 +120,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
-    width: 80%;
+    width: 90%;
+    max-width: 1200px;
     margin-bottom: 4rem;
   }
 
@@ -171,5 +148,15 @@
     padding: 10px;
     margin-top: 20px;
     cursor: pointer;
+  }
+
+  @media screen and (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-item:nth-last-child(1):nth-child(odd) {
+      grid-column: 1 / span 2;
+    }
   }
 </style>

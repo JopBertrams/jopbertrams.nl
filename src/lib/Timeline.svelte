@@ -1,4 +1,6 @@
 <script>
+  import { _ } from 'svelte-i18n';
+
   document.addEventListener('DOMContentLoaded', function () {
     var inputs = document.querySelectorAll('.input');
     inputs.forEach(function (input, index) {
@@ -20,7 +22,7 @@
 </script>
 
 <div class="timeline">
-  <h1>Timeline</h1>
+  <h1>{$_('timeline.header')}</h1>
   <div class="flex-parent">
     <div class="input-flex-container">
       <div class="input">
@@ -43,52 +45,12 @@
       </div>
     </div>
     <div class="description-flex-container">
-      <p>
-        In 2019, I began my journey in the field of ICT at Fontys University of
-        Applied Sciences in Eindhoven. The main course of my study is Software
-        Engineering.
-      </p>
-      <p>
-        I did one semester with the specialisation Cyber Security where I have
-        gained some good knowledge of Ethical Hacking and Risk Consulting. I
-        analysed the security of diverse IT environments with common pen-testing
-        tools, such as Nmap, Metasploit, Wireshark and Burp Suite. I also
-        analysed security threats and resulting business risks according to risk
-        analysis methods and advised a client on security improvements of an IT
-        environment on a physical, technical and organizational level.
-      </p>
-      <p>
-        From February 2022 to July 2022 I did my internship Software Engineering
-        on Curacao. This semester was truly a once-in-a-lifetime experience
-        where I met lovely people and was able to immerse myself in a vibrant
-        culture. It was a unique opportunity to learn and grow as a person, and
-        I am grateful for the memories and experiences that I will always
-        treasure.
-      </p>
-      <p class="active">
-        I am currently doing a semester of advanced enterprise software
-        engineering, where I am learning everything about scalable microservice
-        architectures, cloud services, and Kubernetes. It has been a challenging
-        and rewarding experience, as I am gaining in-depth knowledge and
-        practical skills that will be valuable in my future career as a software
-        developer.
-      </p>
-      <p>
-        In January 2023 I am embarking on an exciting journey to learn about AI
-        and Machine Learning at a university in Pretoria. During my time in
-        South Africa, I will learn a variety of languages, development
-        environments, and frameworks that will allow myself to create
-        sophisticated AI solutions. This is a great opportunity to gain valuable
-        knowledge and skills in a rapidly growing field. In addition to learning
-        about AI and Machine Learning, I will also have the chance to experience
-        the unique culture of South Africa. From its stunning natural beauty to
-        its vibrant cities.
-      </p>
-      <p>
-        As a software developer, I am excited for the limitless possibilities
-        that my future holds and am eager to continue learning and growing in
-        this dynamic field.
-      </p>
+      <p>{$_('timeline.fontys')}</p>
+      <p>{$_('timeline.cybersecurity')}</p>
+      <p>{$_('timeline.curacao')}</p>
+      <p class="active">{$_('timeline.enterprisesoftware')}</p>
+      <p>{$_('timeline.southafrica')}</p>
+      <p>{$_('timeline.future')}</p>
     </div>
   </div>
 </div>
@@ -127,7 +89,7 @@
   .input {
     width: 25px;
     height: 25px;
-    background-color: #ccff66;
+    background-color: #94ba32;
     position: relative;
     border-radius: 50%;
   }
@@ -142,16 +104,16 @@
     z-index: -1;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #ccff66;
+    background-color: #94ba32;
     width: 8vw;
     height: 5px;
     max-width: 80px;
   }
   .input.active {
-    background-color: #ccff66;
+    background-color: #94ba32;
   }
   .input.active::before {
-    background-color: #ccff66;
+    background-color: #94ba32;
   }
   .input.active::after {
     background-color: #b2b2b2;

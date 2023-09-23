@@ -1,3 +1,4 @@
+// @ts-nocheck
 import './app.css';
 import './i18n.js';
 import App from './App.svelte';
