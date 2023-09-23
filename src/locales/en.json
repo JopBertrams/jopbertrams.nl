@@ -1,0 +1,191 @@
+{
+  "hero_text": "20 years old software engineering student, living in the Netherlands. Skilled in .NET technologies and more.",
+  "hero_button": "Scroll down to discover more",
+  "introduction": "My name is Jop Bertrams, 20 years old, and I am a software engineering student. I have been studying ICT for the past few years at Fontys University of Applied Sciences in Eindhoven, and have developed a strong foundation in the principles and techniques of software development. I am excited to share with you some of the projects I have worked on during my study, which showcase my abilities in areas such as problem-solving, coding, and collaboration. I am eager to continue learning and growing as a software engineer, and I hope to use my skills to create innovative and impactful technology solutions in the future.",
+  "timeline": {
+    "header": "Timeline",
+    "fontys": "In 2019, I began my journey in the field of ICT at Fontys University of Applied Sciences in Eindhoven. The main course of my study is Software Engineering.",
+    "cybersecurity": "I did one semester with the specialisation Cyber Security where I have gained some good knowledge of Ethical Hacking and Risk Consulting. I analysed the security of diverse IT environments with common pen-testing tools, such as Nmap, Metasploit, Wireshark and Burp Suite. I also analysed security threats and resulting business risks according to risk analysis methods and advised a client on security improvements of an IT environment on a physical, technical and organizational level.",
+    "curacao": "From February 2022 to July 2022 I did my internship Software Engineering on Curacao. This semester was truly a once-in-a-lifetime experience where I met lovely people and was able to immerse myself in a vibrant culture. It was a unique opportunity to learn and grow as a person, and I am grateful for the memories and experiences that I will always treasure.",
+    "enterprisesoftware": "I am currently doing a semester of advanced enterprise software engineering, where I am learning everything about scalable microservice architectures, cloud services, and Kubernetes. It has been a challenging and rewarding experience, as I am gaining in-depth knowledge and practical skills that will be valuable in my future career as a software developer.",
+    "southafrica": "In February 2023 I am embarking on an exciting journey to learn about AI and Machine Learning at a university in Pretoria. During my time in South Africa, I will learn a variety of languages, development environments, and frameworks that will allow myself to create sophisticated AI solutions. This is a great opportunity to gain valuable knowledge and skills in a rapidly growing field. In addition to learning about AI and Machine Learning, I will also have the chance to experience the unique culture of South Africa. From its stunning natural beauty to its vibrant cities.",
+    "future": "As a software developer, I am excited for the limitless possibilities that my future holds and am eager to continue learning and growing in this dynamic field."
+  },
+  "skills": "Skills",
+  "projects": {
+    "header": "Projects",
+    "safespace": {
+      "logo": "images/safespace-logo.png",
+      "title": "SafeSpace",
+      "short_description": "SafeSpace is an all-in-one home security system that was created by a team of 6 students during the first semester. The system consists of both a desktop application for Windows and an application for iOS to control and monitor the hardware.",
+      "description": [
+        "SafeSpace is an all-in-one home security system that was created by a team of 6 students during the first semester. The system consists of both a desktop application for Windows and an application for iOS to control and monitor the hardware. The desktop application was made using a WinForm application. This application gave the end-user the possibilities to monitor the cameras around the house, lock and unlock the doors, see if there is any motion inside, see details about your smart doorbell and monitor the temprature and humidity inside.",
+        "We also made every hardware aspect of the system ourselfs in our prototype. There was a Raspberry Pi that was used to connect the cameras to the on premise server and stream the feed, while there was also a MQTT server running to receive all the data in the house. For all the different sensors and the doorbell we used an Arduino Mega to read the data and send it to the MQTT server. A LCD screen was used to display a short status inside the house."
+      ],
+      "images": [
+        "images/safespace-dashboard.png",
+        "images/safespace-lock.gif",
+        "images/safespace-motion.gif",
+        "images/safespace-cam.png",
+        "images/safespace-ring.png",
+        "images/safespace-temp.png",
+        "images/safespace-lcd1.jpg",
+        "images/safespace-lcd2.jpg",
+        "images/safespace-basement.jpg"
+      ],
+      "technologies": [
+        "Windows Forms .NET Framework: 4.7.2",
+        "Xamarin iOS",
+        "Raspberry Pi 3B+",
+        "MQTT Protocol",
+        "Arduino Mega",
+        "DT11 Temperature and Humidity Sensor",
+        "HC-SRO4 Ultrasonic Sensor",
+        "KY-006 Buzzer",
+        "LCD Display"
+      ],
+      "stakeholder": "Fontys University of Applied Sciences",
+      "stakeholder_link": "https://fontys.edu/Bachelors-masters/Bachelors/Information-Communication-Technology-Eindhoven.htm"
+    },
+    "chatbot": {
+      "logo": "images/chatbot-logo.png",
+      "title": "Chatbot",
+      "short_description": "Het tweede project in mijn eerste jaar ICT & Software Engineering is een chatbot gemaakt voor mensen die mogelijk in eenzaamheid leven. De chatbot moest makkelijk toegankelijk zijn voor senioren zonder uitgebreide kennis van computers.",
+      "description": [
+        "The second project in my first year of ICT & Software Engineering is a chatbot made for people who might be lonely. The chatbot had to be easily accessible for seniors without extensive computer knowledge. The chatbot was made using the Microsoft Bot Framework and was hosted on Azure. The chatbot was made in a team of 4 students.",
+        "The bot made use of Microsoft Language Understanding (LUIS), a cloud-based conversational AI service that applied our custom machine-learning intelligence made for this project. The bot was able to understand the user's intent with corrosponding entities and respond accordingly. When you wanted to share your name and age with the bot, it would make the conversation more personal, but if you preffered to stay anonymous, the bot would still be able to help you.",
+        "The bot was able to ask you questions about your social life and give you a score based on your answers. The bot was also able to give you tips on how to improve your social life."
+      ],
+      "images": [
+        "images/chatbot-welkom.png",
+        "images/chatbot-naam.png",
+        "images/chatbot-geennaam.png",
+        "images/chatbot-contact.png",
+        "images/chatbot-eenzaam.png",
+        "images/chatbot-uitslag.png"
+      ],
+      "technologies": [
+        "Microsoft Bot Framework",
+        "Microsoft Language Understanding (LUIS)",
+        "Microsoft Azure",
+        "Bot Framework Emulator",
+        "MySQL"
+      ],
+      "stakeholder": "Eindhoven in Contact",
+      "stakeholder_link": "https://www.eindhovenincontact.nl/"
+    },
+    "flightassistant": {
+      "logo": "images/flightassistant-logo.png",
+      "title": "FlightAssistant",
+      "short_description": "FlightAssistant is a web application that allows customers to book flights and manage their bookings afterwards. It is designed to make the process of booking and managing flights of multiple airlines easy and convenient for the user in one place.",
+      "description": [
+        "FlightAssistant is a web application that allows customers to book flights and manage their bookings afterwards. It is designed to make the process of booking and managing flights of multiple airlines easy and convenient for the user in one place. The application was an individual project besides the chatbot project. On the page with all flights you would see an overview of all the flights that are upcoming. This overview contains the departure location, destination, date and time, the airline and the price. When you click on the Details button beside the flight you would be redirected to the details page of that flight. Here you would see all the details of the flight, including more details about the locations and the airline. On the side you see the route of the flight. From this page you are able to go to the booking process for this flight. When the process is finished you would be redirected to the invoice page. Here you would see all the details of the flight and the booking. You would also be able to download the invoice as a PDF.",
+        "The application was made using the ASP.NET Core MVC framework and the database was made using MySQL. This database contained every airline, airport and route in the world. The administrator could easily add flights to the application using this information."
+      ],
+      "images": [
+        "images/flightassistant-allflights.png",
+        "images/flightassistant-flightdetails.png",
+        "images/flightassistant-bookflight.png",
+        "images/flightassistant-invoice.png",
+        "images/flightassistant-db.png"
+      ],
+      "technologies": ["ASP.NET Core MVC", "Bootstrap", "MySQL"],
+      "stakeholder": "Fontys University of Applied Sciences",
+      "stakeholder_link": "https://fontys.edu/Bachelors-masters/Bachelors/Information-Communication-Technology-Eindhoven.htm"
+    },
+    "lokawin": {
+      "logo": "images/lokawin-logo.png",
+      "title": "LokaWin",
+      "short_description": "LokaWin (Lokaal Winkelen), is een full-stack web applicatie waar gebruikers producten van meerdere winkels uit de regio op één centrale plek kunnen bestellen om deze thuis te laten bezorgen.",
+      "description": [
+        "LokaWin (Lokaal Winkelen), is a full-stack web application where users can order products from multiple stores in the region on one central place to have them delivered at home at the same time. You can compare the platform slightly to Amazon, where every store can sign up to sell items trough this platform, but instead of the end-user ordering products from all over the world, you can order products from local stores in your area to support local businesses.",
+        "Everyone can see the map with all affiliated stores without signing up to see what stores are available in their area. When you sign up you can see all the products of the stores, sort stores by category or sort the products by category. On your personal profile page you can see a history of all your orders, see your favorite stores and products, look at your recent searches or change your personal details.",
+        "The frontend of the application was made using Vue.js and the backend was made using Node.js and Express.js. For the database I used MongoDB, which was connected to the backend using Mongoose. The application was hosted on a server at home, and got automatically deployed to the server when I pushed to the GitHub repository."
+      ],
+      "images": [
+        "images/lokawin-startpage.png",
+        "images/lokawin-map.png",
+        "images/lokawin-signup.png",
+        "images/lokawin-userdetails.png",
+        "images/lokawin-allstores.png",
+        "images/lokawin-drugstores.png",
+        "images/lokawin-allproducts.png"
+      ],
+      "technologies": [
+        "Vue.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Mongoose",
+        "Bootstrap",
+        "Leaflet"
+      ],
+      "stakeholder": "Fontys University of Applied Sciences",
+      "stakeholder_link": "https://fontys.edu/Bachelors-masters/Bachelors/Information-Communication-Technology-Eindhoven.htm"
+    },
+    "smartassettracking": {
+      "logo": "images/smartassettracking-logo.png",
+      "title": "Smart Asset Tracking",
+      "short_description": "Smart Asset Tracking is a service consisting of a web application and a mobile application. The web application is used by the back office of the company to track the vans transporting the assets. The mobile application is used by the drivers of the vans to send the location of the van and the temprature of the loading space to the back office.",
+      "description": [
+        "Smart Asset Tracking is a service consisting of a web application and a mobile application. The web application is used by the back office of the company to track the vans transporting the assets and monitoring the temprature and humidity from the back of the van. The mobile application is used by the drivers of the vans to send the location of the van and the temprature of the loading space to the back office. The back office can see the location of the vans on a map. When the temperature is too high or too low, the back office and the driver will receive a notification. The back office can also see the history of the temperature of the loading space.",
+        "I mostly worked on the mobile application this project. This application was made with Xamarin. The application was connected to a RuuviTag sensor in the back of the van over Bluetooth Low Energy to get the temperature and humidity. The application also used the GPS of the phone to get the location of the van. The application was connected to the back office using a REST API.",
+        "The frontend of the back office application was made using React, and the backend using ASP.NET Core Web API. This backend stored all the information of the vans and the drivers in a MySQL database."
+      ],
+      "images": [
+        "images/smartassettracking-homescreen.png",
+        "images/smartassettracking-monitoring.png",
+        "images/smartassettracking-notifications.png",
+        "images/smartassettracking-selectdevice.png",
+        "images/smartassettracking-backoffice.png",
+        "images/smartassettracking-warning.gif"
+      ],
+      "technologies": [
+        "Xamarin",
+        "ASP.NET Core Web API",
+        "React",
+        "MySQL",
+        "RuuviTag sensor"
+      ],
+      "stakeholder": "OrangeNXT on behalf of HelloFresh",
+      "stakeholder_link": "https://www.orangenxt.com/en"
+    },
+    "carrental": {
+      "logo": "images/carrental-logo.png",
+      "title": "Car Rental",
+      "short_description": "During my internship in Curacao I did research on low-code and no-code platforms. I created a car rental application using the Mendix and OutSystems platforms. The application allows customers to book a rental car and manage their bookings afterwards.",
+      "description": [
+        "During my internship on Curacao I did research on low-code and no-code platforms. After extensive research I chose to create a prototype application using what at that time where the best low-code platforms in my opinion, Mendix and OutSystems. To make a prototype with complex enough logics and some algorithms to properly test these platforms I created a car rental application.",
+        "When the user visits the website they can see every car in the fleet and search for available car for a specific date range. After selecting a car they can choose which extras they want to add to their booking and which insurance they want to take. After filling in their personal details and verifying their booking they can pay for their booking. When this process is finished the user can see all their bookings on the My Bookings page.",
+        "When you login using an admin account you can see all the cars in the fleet, add cars, edit cars and change the prices of the cars. When you add high season dates the customer will pay an extra fee for the car during these dates. When you want to change the prices per day of all the extras and insurances this is also possible from this page. In the Bookings tab you can see all the past, and upcoming bookings. When you click on a booking you can see all the details of the booking and you can add a note to the booking."
+      ],
+      "images": [
+        "images/carrental-homepage.png",
+        "images/carrental-availablecars.png",
+        "images/carrental-bookingextras.png",
+        "images/carrental-bookingverify.png",
+        "images/carrental-bookingpayment.png",
+        "images/carrental-mybookings.png",
+        "images/carrental-admincars.png",
+        "images/carrental-highseason.png",
+        "images/carrental-changeprices.png",
+        "images/carrental-adminbookings.png",
+        "images/carrental-adminbookingdetails.png",
+        "images/carrental-editcar.png"
+      ],
+      "technologies": ["Mendix", "OutSystems"],
+      "stakeholder": "Zion Tech B.V.",
+      "stakeholder_link": "https://ziontech.biz/"
+    },
+    "kwetter": {
+      "short_description": "In semester 6, enterprise software engineering, I created a Twitter clone using a microservice architecture, and deployed this to a Kubernetes cluster on a cloud platform."
+    },
+    "oefenpraktijk": {
+      "short_description": "In semester 6 I also worked on a group project with 4 other students, where we created a web application for mental healthcare workers to find each other and share their experiences and knowledge on certain topics."
+    }
+  },
+  "contact": {
+    "header": "Contact",
+    "text": "I am always looking for new opportunities to work with interesting people and companies. If you think we could be a good fit, please don't hesitate to send me a mail."
+  }
+}

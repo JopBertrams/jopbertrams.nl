@@ -1,0 +1,191 @@
+{
+  "hero_text": "20-jarige student software engineering uit Nederland, beschikkend over kennis in .NET-technologieën en meer",
+  "hero_button": "Scroll om meer te ontdekken",
+  "introduction": "Mijn naam is Jop Bertrams, 20 jaar oud, en ik ben student software engineering. Ik heb de afgelopen jaren ICT gestudeerd aan de Fontys Hogeschool in Eindhoven en heb een sterke basis ontwikkeld in verschillende technieken van softwareontwikkeling. Ik laat graag enkele van de projecten zien waaraan ik tijdens mijn studie heb gewerkt, die mijn capaciteiten laten zien op het gebied van probleemoplossing, programmeren en samenwerking. Ik sta open om te blijven leren en groeien als software-engineer, en ik hoop mijn vaardigheden te gebruiken om in de toekomst impactvolle oplossingen te creëren.",
+  "timeline": {
+    "header": "Tijdlijn",
+    "fontys": "In 2019 ben ik in de ICT begonnen bij Fontys Hogescholen in Eindhoven. De hoofdrichting van mijn studie is Software Engineering.",
+    "cybersecurity": "Ik heb een semester gedaan met de specialisatie Cyber Security waar ik goede kennis heb opgedaan over Ethical Hacking en Risk Consulting. Ik analyseerde de beveiliging van diverse IT-omgevingen met gangbare pentesttools, zoals Nmap, Metasploit, Wireshark en Burp Suite. Ook analyseerde ik beveiligingsdreigingen en daaruit ontstaande bedrijfsrisico's volgens risicoanalysemethoden en adviseerde ik daarmee een klant over beveiligingsverbeteringen van een IT-omgeving op fysiek, technisch en organisatorisch vlak.",
+    "curacao": "Van Februari 2022 tot Juli 2022 heb ik mijn stage Software Engineering gelopen op Curacao. Dit semester was een echte once-in-a-lifetime ervaring waar ik geweldige mensen heb ontmoet en mezelf kon onderdompelen in een levendige cultuur. Het was een unieke kans om te leren en te groeien als persoon, en ik ben dankbaar voor de herinneringen en ervaringen die ik altijd zal onthouden.",
+    "enterprisesoftware": "Ik volg momenteel een semester enterprise software engineering, waar ik alles leer over schaalbare microservice-architecturen, cloudservices en Kubernetes. Het is een uitdagende ervaring, omdat ik diepgaande kennis en praktische vaardigheden opdoe die waardevol zullen zijn in mijn toekomstige carrière als softwareontwikkelaar.",
+    "southafrica": "In Februari 2023 begin ik aan een spannende reis om meer te leren over AI en Machine Learning aan een universiteit in Pretoria. Tijdens mijn tijd in Zuid-Afrika leer ik over verschillende talen en frameworks waarmee ik geavanceerde AI-oplossingen kan creëren. Dit is een geweldige kans om waardevolle kennis en vaardigheden op te doen in een snelgroeiend veld. Naast leren over AI en Machine Learning, krijg ik ook de kans om de unieke cultuur van Zuid-Afrika te ervaren. Van de adembenemende natuurlijke schoonheid tot de bruisende steden.",
+    "future": "Als softwareontwikkelaar ben ik enthousiast over de grenzeloze mogelijkheden die mijn toekomst in petto heeft en wil ik graag blijven leren en groeien in dit dynamische veld."
+  },
+  "skills": "Vaardigheden",
+  "projects": {
+    "header": "Projecten",
+    "safespace": {
+      "logo": "images/safespace-logo.png",
+      "title": "SafeSpace",
+      "short_description": "SafeSpace is een compleet beveiliginssysteem voor thuis gecreëerd met 5 medestudenten in het eerste jaar van mijn opleiding. Het systeem is te bedienen via de desktop applicatie voor Windows.",
+      "description": [
+        "SafeSpace is een alles-in-één huisbeveiligingssysteem dat tijdens het eerste semester is gemaakt door een team van 6 studenten. Het systeem bestaat uit zowel een desktop applicatie voor Windows als een applicatie voor iOS om de hardware aan te sturen en te monitoren. De desktop-applicatie is gemaakt met behulp van een WinForm-applicatie. Deze applicatie geeft de eindgebruiker de mogelijkheid om de camera's rondom het huis te monitoren, de deuren te vergrendelen en ontgrendelen, te zien of er binnen beweging is, details over je slimme deurbel te bekijken en de temperatuur en luchtvochtigheid binnen te monitoren.",
+        "Ook hebben we elk hardware aspect van het systeem zelf gemaakt in ons prototype. Er was een Raspberry Pi die werd gebruikt om de camera's aan te sluiten op de lokale server en de feed te streamen, terwijl er ook een MQTT-server draaide om alle gegevens in huis te ontvangen. Voor alle verschillende sensoren en de deurbel hebben we een Arduino Mega gebruikt om de data uit te lezen en naar de MQTT-server te sturen. Een LCD-scherm werd gebruikt als info display in huis met statistieken."
+      ],
+      "images": [
+        "images/safespace-dashboard.png",
+        "images/safespace-lock.gif",
+        "images/safespace-motion.gif",
+        "images/safespace-cam.png",
+        "images/safespace-ring.png",
+        "images/safespace-temp.png",
+        "images/safespace-lcd1.jpg",
+        "images/safespace-lcd2.jpg",
+        "images/safespace-basement.jpg"
+      ],
+      "technologies": [
+        "Windows Forms .NET Framework: 4.7.2",
+        "Xamarin iOS",
+        "Raspberry Pi 3B+",
+        "MQTT Protocol",
+        "Arduino Mega",
+        "DT11 Temperatuur en Luchtvochtigheid Sensor",
+        "HC-SRO4 Ultrasonische Sensor",
+        "KY-006 Buzzer",
+        "LCD Display"
+      ],
+      "stakeholder": "Fontys ICT",
+      "stakeholder_link": "https://fontys.nl/Studeren/Opleidingen/HBO-ICT.htm"
+    },
+    "chatbot": {
+      "logo": "images/chatbot-logo.png",
+      "title": "Chatbot",
+      "short_description": "Het tweede project in mijn eerste jaar ICT & Software Engineering is een chatbot gemaakt voor mensen die mogelijk in eenzaamheid leven. De chatbot moest makkelijk toegankelijk zijn voor senioren zonder uitgebreide kennis van computers.",
+      "description": [
+        "Het tweede project in mijn eerste jaar ICT & Software Engineering is een chatbot gemaakt voor mensen die mogelijk eenzaam zijn. De chatbot moest laagdrempelig zijn voor senioren zonder uitgebreide computerkennis. De chatbot is gemaakt met behulp van het Microsoft Bot Framework en werd gehost op Azure. De chatbot is gemaakt in een team van 4 studenten.",
+        "De chatbot maakte gebruik van Microsoft Language Understanding (LUIS), een cloud-based conversatie-AI-service die onze aangepaste machine learning toepaste die voor dit project was gemaakt. De bot was in staat om de intentie van de gebruiker met bijbehorende entiteiten te begrijpen en daarop te reageren. Als je je naam en leeftijd met de bot wilt delen, wordt het gesprek persoonlijker, maar als je liever anoniem blijft, kan de bot je nog steeds helpen.",
+        "De chatbot kon je vragen stellen over je sociale leven en je daardoor een score geven op basis van je antwoorden. De bot kon je ook tips geven over hoe je je sociale leven kunt verbeteren."
+      ],
+      "images": [
+        "images/chatbot-welkom.png",
+        "images/chatbot-naam.png",
+        "images/chatbot-geennaam.png",
+        "images/chatbot-contact.png",
+        "images/chatbot-eenzaam.png",
+        "images/chatbot-uitslag.png"
+      ],
+      "technologies": [
+        "Microsoft Bot Framework",
+        "Microsoft Language Understanding (LUIS)",
+        "Microsoft Azure",
+        "Bot Framework Emulator",
+        "MySQL"
+      ],
+      "stakeholder": "Eindhoven in Contact",
+      "stakeholder_link": "https://www.eindhovenincontact.nl/"
+    },
+    "flightassistant": {
+      "logo": "images/flightassistant-logo.png",
+      "title": "FlightAssistant",
+      "short_description": "FlightAssistant is een webapplicatie waarmee gebruikers vluchten kunnen boeken en hun boekingen achteraf kunnen beheren. Het is ontworpen om het proces van het boeken en beheren van vluchten van meerdere luchtvaartmaatschappijen op één plek gemakkelijk te maken.",
+      "description": [
+        "FlightAssistant is een webapplicatie waarmee gebruikers vluchten kunnen boeken en hun boekingen achteraf kunnen beheren. Het is ontworpen om het proces van het boeken en beheren van vluchten van meerdere luchtvaartmaatschappijen op één plek gemakkelijk en gemakkelijk te maken. De applicatie was een individueel project naast het chatbot project. Op de pagina met alle vluchten zie je een overzicht van alle vluchten die gepland staan. Dit overzicht bevat de vertrekplaats, bestemming, datum en tijd, de luchtvaartmaatschappij en de prijs. Wanneer u op de knop Details naast de vlucht klikt, wordt u doorgestuurd naar de detailpagina van die vlucht. Hier ziet u alle details van de vlucht, inclusief meer details over de locaties en de luchtvaartmaatschappij. Aan de zijkant zie je de route van de vlucht. Vanaf deze pagina kunt u naar het boekingsproces voor deze vlucht gaan. Wanneer het proces is voltooid, wordt u doorgestuurd naar de factuurpagina. Hier ziet u alle details van de vlucht en de boeking. U kunt de factuur ook als PDF downloaden.",
+        "De applicatie is gemaakt met behulp van het ASP.NET Core MVC-framework en de database is gemaakt met MySQL. Deze database bevatte alle luchtvaartmaatschappijen, luchthavens en routes ter wereld. Met deze informatie kan de administrator eenvoudig vluchten toevoegen aan de applicatie."
+      ],
+      "images": [
+        "images/flightassistant-allflights.png",
+        "images/flightassistant-flightdetails.png",
+        "images/flightassistant-bookflight.png",
+        "images/flightassistant-invoice.png",
+        "images/flightassistant-db.png"
+      ],
+      "technologies": ["ASP.NET Core MVC", "Bootstrap", "MySQL"],
+      "stakeholder": "Fontys ICT",
+      "stakeholder_link": "https://fontys.nl/Studeren/Opleidingen/HBO-ICT.htm"
+    },
+    "lokawin": {
+      "logo": "images/lokawin-logo.png",
+      "title": "LokaWin",
+      "short_description": "LokaWin (Lokaal Winkelen), is een full-stack web applicatie waar gebruikers producten van meerdere winkels uit de regio op één centrale plek kunnen bestellen om deze thuis te laten bezorgen.",
+      "description": [
+        "LokaWin (Lokaal Winkelen) is een full-stack webapplicatie waar gebruikers op één centrale plek producten kunnen bestellen bij meerdere winkels in de regio om ze tegelijkertijd thuis te laten bezorgen. Je kunt het platform een beetje vergelijken met Amazon, waar elke winkel zich kan aanmelden om artikelen te verkopen via het platform, maar in plaats van dat de gebruiker producten van over de hele wereld bestelt, kun je producten bestellen bij lokale winkels in jouw buurt om zo de lokale economie te ondersteunen.",
+        "Iedereen kan de kaart zien met alle aangesloten winkels zonder zich aan te melden om te zien welke winkels er in hun buurt beschikbaar zijn. Als je je aanmeldt kun je alle producten van de winkels zien, winkels sorteren op categorie of de producten sorteren op categorie. Op je persoonlijke profielpagina kun je de historie van al je bestellingen inzien, je favoriete winkels en producten bekijken, je recente zoekopdrachten bekijken of je persoonlijke gegevens wijzigen.",
+        "De frontend van de applicatie is gemaakt met Vue.js en de backend is gemaakt met Node.js en Express.js. Voor de database gebruikte ik MongoDB, die met Mongoose met de backend was verbonden. De applicatie werd thuis op een server gehost en werd automatisch op de server gedeployed als ik naar de GitHub-repository pushte."
+      ],
+      "images": [
+        "images/lokawin-startpage.png",
+        "images/lokawin-map.png",
+        "images/lokawin-signup.png",
+        "images/lokawin-userdetails.png",
+        "images/lokawin-allstores.png",
+        "images/lokawin-drugstores.png",
+        "images/lokawin-allproducts.png"
+      ],
+      "technologies": [
+        "Vue.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Mongoose",
+        "Bootstrap",
+        "Leaflet"
+      ],
+      "stakeholder": "Fontys ICT",
+      "stakeholder_link": "https://fontys.nl/Studeren/Opleidingen/HBO-ICT.htm"
+    },
+    "smartassettracking": {
+      "logo": "images/smartassettracking-logo.png",
+      "title": "Smart Asset Tracking",
+      "short_description": "Smart Asset Tracking is een dienst die bestaat uit een webapplicatie en een mobiele applicatie. De webapplicatie wordt gebruikt door de backoffice van het bedrijf om de bestelwagens te volgen die de assets vervoeren. De mobiele applicatie wordt gebruikt door de chauffeurs van de bestelwagens om de locatie van de bestelwagen en de temperatuur van de laadruimte door te geven aan de backoffice.",
+      "description": [
+        "Smart Asset Tracking is een dienst die bestaat uit een webapplicatie en een mobiele applicatie. De webapplicatie wordt gebruikt door de backoffice van het bedrijf om de bestelwagens te volgen die de assets vervoeren en om de temperatuur en luchtvochtigheid van de laadruimte van de bestelwagen te monitoren. De mobiele applicatie wordt gebruikt door de chauffeurs van de bestelwagens om de locatie van de bestelwagen en de temperatuur van de laadruimte door te geven aan de backoffice. De backoffice kan de locatie van de bestelwagens op een kaart zien. Wanneer de temperatuur te hoog of te laag is, krijgen zowel de backoffice medewerkers als de chauffeurs een melding. Ook kan de backoffice de historie van de temperatuur van de laadruimte inzien.",
+        "Ik heb dit project vooral aan de mobiele applicatie gewerkt. Deze applicatie is gemaakt met Xamarin. De applicatie was via Bluetooth Low Energy verbonden met een RuuviTag-sensor achter in het busje om de temperatuur en luchtvochtigheid te meten. De applicatie gebruikte ook de GPS van de telefoon om de locatie van het busje te achterhalen. De applicatie was via een REST API verbonden met de backoffice.",
+        "De frontend van de backoffice applicatie is gemaakt met React en de backend met ASP.NET Core Web API. Deze backend bewaarde alle informatie van de bestelwagens en de chauffeurs in een MySQL-database."
+      ],
+      "images": [
+        "images/smartassettracking-homescreen.png",
+        "images/smartassettracking-monitoring.png",
+        "images/smartassettracking-notifications.png",
+        "images/smartassettracking-selectdevice.png",
+        "images/smartassettracking-backoffice.png",
+        "images/smartassettracking-warning.gif"
+      ],
+      "technologies": [
+        "Xamarin",
+        "ASP.NET Core Web API",
+        "React",
+        "MySQL",
+        "RuuviTag sensor"
+      ],
+      "stakeholder": "OrangeNXT in opdracht van HelloFresh",
+      "stakeholder_link": "https://www.orangenxt.com/nl"
+    },
+    "carrental": {
+      "logo": "images/carrental-logo.png",
+      "title": "Car Rental",
+      "short_description": "Tijdens mijn stage op Curacao heb ik onderzoek gedaan naar low-code en no-code platformen. Ik heb een autoverhuur applicatie gemaakt met behulp van de Mendix en OutSystems low-code platformen. Met de applicatie kunnen klanten een huurauto boeken en hun boekingen achteraf beheren.",
+      "description": [
+        "Tijdens mijn stage op Curacao heb ik onderzoek gedaan naar low-code en no-code platformen. Na uitgebreid onderzoek heb ik ervoor gekozen om een prototype applicatie te maken met wat op dat moment naar mijn mening de beste low-code platformen waren, Mendix en OutSystems. Om een prototype te maken met voldoende complexe logica en een aantal algoritmen om deze platforms goed te testen, heb ik een autoverhuurapplicatie gemaakt.",
+        "Wanneer de gebruiker de website bezoekt, kan hij elke auto in het wagenpark zien en zoeken naar beschikbare auto's voor een specifieke periode. Na het selecteren van een auto kunnen ze kiezen welke extra's ze aan hun boeking willen toevoegen en welke verzekeringen ze willen afsluiten. Na het invullen van hun persoonlijke gegevens en het verifiëren van hun boeking kunnen ze hun boeking betalen. Wanneer dit proces is voltooid, kan de gebruiker al zijn boekingen zien op de pagina Mijn boekingen.",
+        "Wanneer u inlogt met een administrator account kunt u alle auto's in het wagenpark zien, auto's toevoegen, auto's bewerken en de prijzen van de auto's wijzigen. Wanneer u hoogseizoendata toevoegt, betaalt de klant tijdens deze data een extra toeslag voor de auto. Wanneer u de prijzen van alle extra's en verzekeringen wat ze per dag kosten wilt wijzigen kan dat ook vanaf deze pagina. In het tabblad Boekingen kunt u alle eerdere en aankomende boekingen zien. Als je op een boeking klikt zie je alle details van de boeking en kun je een notitie aan de boeking toevoegen."
+      ],
+      "images": [
+        "images/carrental-homepage.png",
+        "images/carrental-availablecars.png",
+        "images/carrental-bookingextras.png",
+        "images/carrental-bookingverify.png",
+        "images/carrental-bookingpayment.png",
+        "images/carrental-mybookings.png",
+        "images/carrental-admincars.png",
+        "images/carrental-highseason.png",
+        "images/carrental-changeprices.png",
+        "images/carrental-adminbookings.png",
+        "images/carrental-adminbookingdetails.png",
+        "images/carrental-editcar.png"
+      ],
+      "technologies": ["Mendix", "OutSystems"],
+      "stakeholder": "Zion Tech B.V.",
+      "stakeholder_link": "https://ziontech.biz/"
+    },
+    "kwetter": {
+      "short_description": "In semester 6, enterprise software engineering, heb ik een Twitter kloon gemaakt met behulp van een microservice-architectuur en deze geïmplementeerd in een Kubernetes-cluster op een cloudplatform."
+    },
+    "oefenpraktijk": {
+      "short_description": "In semester 6 werkte ik ook aan een groepsproject met 4 andere studenten, waar we een webapplicatie creëerden voor GGZ-werkers om elkaar te vinden en hun ervaringen en kennis over bepaalde onderwerpen te delen."
+    }
+  },
+  "contact": {
+    "header": "Contact",
+    "text": "Ik ben altijd op zoek naar nieuwe mogelijkheden om met interessante mensen en bedrijven samen te werken die een uitdaging hebben. Als je denkt dat we een goede match kunnen zijn, aarzel dan niet om me een mail te sturen."
+  }
+}

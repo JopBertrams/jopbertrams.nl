@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1"
+	 id="svg2" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 156 156"
+	 style="enable-background:new 0 0 156 156;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#235C96;}
+	.st1{fill:#94BA32;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'Arial';}
+	.st4{font-size:24px;}
+	.st5{font-weight:bold;}
+</style>
+<sodipodi:namedview  bordercolor="#666666" borderopacity="1" gridtolerance="10" guidetolerance="10" id="namedview10" inkscape:current-layer="svg2" inkscape:cx="372.04724" inkscape:cy="-370.18109" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-height="480" inkscape:window-maximized="0" inkscape:window-width="640" inkscape:window-x="0" inkscape:window-y="0" inkscape:zoom="0.22425739" objecttolerance="10" pagecolor="#ffffff" showgrid="false">
+	</sodipodi:namedview>
+<circle id="circle4" sodipodi:cx="78" sodipodi:cy="78" sodipodi:rx="78" sodipodi:ry="78" class="st0" cx="78" cy="78" r="78">
+</circle>
+<path id="path6" inkscape:connector-curvature="0" class="st1" d="M8,78c0,15.6,5,29.8,13.6,41.4l-3.2-22.2L8,78z M23,34.6l9.2-2.2
+	C40,21,51,15,61,13.2l-15.8,11l15.6-3.8L72,14.2l-3.2-5.6C50.4,11,34,20.6,23,34.6z M33.2,77.8L39.8,91l19.6,1.8l10.6,40h13l14.8-18
+	L97,103.6c6.4-5,11.4-11.2,13.4-19.2l-10,2.4l-13-20.4l3-2l12.8,18l12.6-11c-6.6-0.8-11-4-12.8-9.6l22.8,3.6l8.2,16.8l3.6-22.4
+	l10.2,12c-2.6-29.6-23.8-54-51.8-61.4c0,6.8-3.8,12.4-9.2,15.6l-7.2-4.2l-13.8,8l4.8,4.6l7.4-8.8l-1.4,10.8c-9,0-13.4,1.4-19,4.4
+	l-1.2,5.6L50.2,45l-2.6,7l5.4,1.6c3-3.8,5.4-6.2,11.2-7.6l6,6.6l-3.6,1.2l2.2,1.8l3.2-3.8l-4.6-6.4c4.6,0,7.2,2.8,8.8,9.8l8.2-12
+	l10,4.2l-1,2.6l-11.8,1v4.4l9,0.6l-2.8,7.2c-16.4,0-21.2-0.4-24.6-7.8l-13.6-0.8C39.6,60.6,34.6,68.4,33.2,77.8z M52.6,36.4l8,2v-8
+	L52.6,36.4z M97,44.2l4-2.2l5.4,11.2l-3.6,0.8L97,44.2z M99.2,124l3.6,1.4l6-13.8l-7.6,4.8L99.2,124z"/>
+<text transform="matrix(1 0 0 1 11.3379 83.7771)" class="st2 st3 st4 st5">Hello World</text>
+</svg>
