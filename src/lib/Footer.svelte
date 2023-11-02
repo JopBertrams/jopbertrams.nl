@@ -1,7 +1,7 @@
 <div class="footer">
   <div class="text">
     <img src="/logo.png" alt="logo" />
-    <p>© 2022, Built by Jop with Svelte</p>
+    <p>© 2023, Built by Jop with Svelte</p>
   </div>
   <div class="links">
     <a href="https://github.com/JopBertrams" target="_blank" rel="noreferrer"

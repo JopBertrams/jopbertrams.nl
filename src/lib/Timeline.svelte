@@ -34,11 +34,14 @@
       <div class="input">
         <span data-year="2022" data-info="Curacao" />
       </div>
-      <div class="input active">
+      <div class="input">
         <span data-year="2022" data-info="Enterprise Software" />
       </div>
       <div class="input">
         <span data-year="2023" data-info="South Africa" />
+      </div>
+      <div class="input active">
+        <span data-year="2023" data-info="Gilde-BT" />
       </div>
       <div class="input">
         <span data-year="Future" data-info="???" />
@@ -48,8 +51,9 @@
       <p>{$_('timeline.fontys')}</p>
       <p>{$_('timeline.cybersecurity')}</p>
       <p>{$_('timeline.curacao')}</p>
-      <p class="active">{$_('timeline.enterprisesoftware')}</p>
+      <p>{$_('timeline.enterprisesoftware')}</p>
       <p>{$_('timeline.southafrica')}</p>
+      <p class="active">{$_('timeline.gilde-bt')}</p>
       <p>{$_('timeline.future')}</p>
     </div>
   </div>
@@ -105,9 +109,9 @@
     top: 50%;
     transform: translateY(-50%);
     background-color: #94ba32;
-    width: 8vw;
+    width: 4vw;
     height: 5px;
-    max-width: 80px;
+    max-width: 70px;
   }
   .input.active {
     background-color: #94ba32;
@@ -166,22 +170,61 @@
     display: block;
   }
 
-  @media screen and (max-width: 850px) {
-    .timeline {
-      height: 100vh;
-    }
-  }
-
-  @media (min-width: 770px) {
+  @media (min-width: 850px) {
     .input::before {
-      left: -71px;
+      left: -59px;
     }
     .input::after {
-      right: -71px;
+      right: -59px;
     }
   }
-
-  @media (max-width: 770px) {
+  @media (max-width: 1515px) {
+    .input::before {
+      left: -67px;
+      width: 70px;
+    }
+    .input::after {
+      right: -67px;
+      width: 70px;
+    }
+  }
+  @media (max-width: 1200px) {
+    .input::before {
+      left: -55px;
+      width: 60px;
+    }
+    .input::after {
+      right: -55px;
+      width: 60px;
+    }
+  }
+  @media (max-width: 1020px) {
+    .input::before {
+      left: -50px;
+      width: 50px;
+    }
+    .input::after {
+      right: -50px;
+      width: 50px;
+    }
+  }
+  @media (max-width: 850px) {
+    .input {
+      width: 17px;
+      height: 17px;
+    }
+    .input::before,
+    .input::after {
+      height: 3px;
+    }
+    .input::before {
+      left: -40px;
+    }
+    .input::after {
+      right: -40px;
+    }
+  }
+  @media (max-width: 600px) {
     .flex-parent {
       justify-content: initial;
     }
@@ -196,7 +239,7 @@
       width: 60px;
       height: 60px;
       margin: 0 10px 50px;
-      background-color: #b2b2b2;
+      background-color: #aeb6bf;
     }
     .input::before,
     .input::after {
@@ -216,11 +259,16 @@
     .input span::after {
       top: 50%;
       transform: translate(-50%, -50%);
-      color: #000000;
+      color: #ecf0f1;
     }
     .description-flex-container {
       margin-top: 30px;
       text-align: center;
+    }
+  }
+  @media (max-width: 400px) {
+    body {
+      min-height: 950px;
     }
   }
 </style>
