@@ -1,5 +1,5 @@
 <script>
-  import heroImage from '../assets/hero.jpg';
+  import heroImage from '../assets/hero.webp';
   import { _, locale } from 'svelte-i18n';
 
   function scrollToIntroduction() {
@@ -55,7 +55,7 @@
     position: absolute;
     padding: 2rem;
     color: #ffffff;
-    font-size: 24px;
+    font-size: 2em;
   }
 
   .language {
@@ -63,7 +63,7 @@
     border: none;
     background-color: transparent;
     color: #ffffff;
-    font-size: 24px;
+    font-size: 1em;
   }
 
   .hero {
@@ -84,7 +84,7 @@
   }
 
   .hero-text {
-    width: 50%;
+    max-width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,38 +106,37 @@
     border-style: solid;
   }
   .hero-text:before {
-    top: -5rem;
-    left: -5rem;
+    top: -2rem;
+    left: -2rem;
     border-width: 2px 0 0 2px;
   }
   .hero-text:after {
-    top: -5rem;
-    right: -5rem;
+    top: -2rem;
+    right: -2rem;
     border-width: 2px 2px 0 0;
   }
   .hero-text > :first-child:before {
-    bottom: -5rem;
-    right: -5rem;
+    bottom: -2rem;
+    right: -2rem;
     border-width: 0 2px 2px 0;
   }
   .hero-text > :first-child:after {
-    bottom: -5rem;
-    left: -5rem;
+    bottom: -2rem;
+    left: -2rem;
     border-width: 0 0 2px 2px;
   }
 
   .hero-text h1 {
-    font-size: 41px;
-    margin: 0;
+    font-size: 4em;
   }
 
   .hero-text h2 {
-    font-size: 30px;
-    margin: 0;
+    font-size: 2em;
   }
 
   .hero-text p {
-    font-size: 26px;
+    margin-top: 2rem;
+    font-size: 1.2em;
     text-align: center;
   }
 
@@ -148,7 +147,6 @@
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
-    font-size: 30px;
     margin-top: 0;
   }
 
@@ -174,11 +172,11 @@
     border: 1px solid #fff;
     color: #ffffff;
     text-align: center;
-    font-size: 20px;
     padding: 20px;
     transition: all 0.3s;
     cursor: pointer;
-    margin: 5px;
+    margin-top: 2rem;
+    font-size: 1.2em;
   }
 
   .button span {
@@ -224,13 +222,67 @@
     object-fit: cover;
   }
 
-  @media screen and (max-width: 850px) {
+  @media (max-height: 650px) {
+    .hero {
+      height: auto;
+      padding: 2rem 0;
+    }
+  }
+
+  @media screen and (max-width: 1300px) {
+    .hero-text h1 {
+      font-size: 3em;
+    }
+
+    .hero-text h2 {
+      font-size: 1.5em;
+    }
+  }
+
+  @media screen and (min-width: 991px) and (max-width: 1070px) {
+    .hero-text h1 {
+      font-size: 2.5em;
+    }
+
+    .hero-text p,
+    .button {
+      font-size: 1em;
+    }
+
+    .hero-image {
+      width: 50%;
+    }
+  }
+
+  @media screen and (min-width: 851px) and (max-width: 990px) {
+    .hero-text h1 {
+      font-size: 2.5em;
+    }
+
+    .hero-text p,
+    .button {
+      font-size: 1em;
+    }
+
+    .hero-text:before,
+    .hero-text:after,
+    .hero-text > :first-child:before,
+    .hero-text > :first-child:after {
+      width: 50px;
+      height: 40px;
+    }
+
+    .hero-image {
+      width: 60%;
+    }
+  }
+
+  @media screen and (min-width: 551px) and (max-width: 850px) {
     .hero {
       flex-direction: column-reverse;
       justify-content: center;
       align-items: center;
       align-content: space-around;
-      justify-content: space-evenly;
     }
 
     .hero-left {
@@ -258,6 +310,71 @@
 
     .hero-image {
       position: relative;
+      width: 400px;
+      height: 400px;
+      overflow: hidden;
+      border-radius: 50%;
+    }
+
+    .hero-image img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-70%, 10%) scale(2.3);
+    }
+
+    .hero-text h1 {
+      font-size: 4em;
+    }
+
+    .hero-text h2 {
+      font-size: 2em;
+    }
+
+    .hero-text p,
+    .button {
+      font-size: 1.2em;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    #language-selector {
+      font-size: 1.5em;
+    }
+
+    .hero {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      align-content: space-around;
+    }
+
+    .hero-left {
+      width: 100%;
+      height: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: none;
+    }
+
+    .hero-text {
+      width: 80%;
+    }
+
+    .hero-text::after,
+    .hero-text::before,
+    .hero-text > :first-child::after,
+    .hero-text > :first-child::before {
+      border: none;
+      display: none;
+      opacity: 0;
+    }
+
+    .hero-image {
+      margin-top: 3rem;
+      position: relative;
       width: 300px;
       height: 300px;
       overflow: hidden;
@@ -271,8 +388,18 @@
       transform: translate(-70%, 10%) scale(2.3);
     }
 
+    .hero-text h1 {
+      font-size: 2em;
+    }
+
     .hero-text h2 {
-      font-size: 24px;
+      font-size: 1.3em;
+    }
+
+    .hero-text p,
+    .button {
+      margin-top: 1rem;
+      font-size: 1em;
     }
   }
 </style>

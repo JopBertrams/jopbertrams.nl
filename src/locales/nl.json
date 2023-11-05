@@ -4,13 +4,35 @@
   "introduction": "Mijn naam is Jop Bertrams, 21 jaar oud, en ik ben student software engineering. Ik heb de afgelopen jaren ICT gestudeerd aan de Fontys Hogeschool in Eindhoven en heb een sterke basis ontwikkeld in verschillende technieken van softwareontwikkeling. Ik laat graag enkele van de projecten zien waaraan ik tijdens mijn studie heb gewerkt, die mijn capaciteiten laten zien op het gebied van probleemoplossing, programmeren en samenwerking. Ik sta open om te blijven leren en groeien als software-engineer, en ik hoop mijn vaardigheden te gebruiken om in de toekomst impactvolle oplossingen te creëren.",
   "timeline": {
     "header": "Tijdlijn",
-    "fontys": "In 2019 ben ik in de ICT begonnen bij Fontys Hogescholen in Eindhoven. De hoofdrichting van mijn studie is Software Engineering.",
-    "cybersecurity": "Ik heb een semester gedaan met de specialisatie Cyber Security waar ik goede kennis heb opgedaan over Ethical Hacking en Risk Consulting. Ik analyseerde de beveiliging van diverse IT-omgevingen met gangbare pentesttools, zoals Nmap, Metasploit, Wireshark en Burp Suite. Ook analyseerde ik beveiligingsdreigingen en daaruit ontstaande bedrijfsrisico's volgens risicoanalysemethoden en adviseerde ik daarmee een klant over beveiligingsverbeteringen van een IT-omgeving op fysiek, technisch en organisatorisch vlak.",
-    "curacao": "Van Februari 2022 tot Juli 2022 heb ik mijn stage Software Engineering gelopen op Curacao. Dit semester was een echte once-in-a-lifetime ervaring waar ik geweldige mensen heb ontmoet en mezelf kon onderdompelen in een levendige cultuur. Het was een unieke kans om te leren en te groeien als persoon, en ik ben dankbaar voor de herinneringen en ervaringen die ik altijd zal onthouden.",
-    "enterprisesoftware": "Ik volgde een semester enterprise software engineering, waar ik alles leerde over schaalbare microservice-architecturen, cloudservices en Kubernetes. Het was een uitdagende ervaring, omdat ik diepgaande kennis en praktische vaardigheden opdeed die waardevol zullen zijn in mijn toekomstige carrière als softwareontwikkelaar.",
-    "southafrica": "In Februari 2023 begon ik aan een spannende reis om meer te leren over AI en Machine Learning aan een universiteit in Pretoria, Belgium Campus. Tijdens mijn tijd in Zuid-Afrika leerde ik over verschillende models en frameworks waarmee ik geavanceerde AI-oplossingen kon creëren. Dit was een geweldige ervaring. Het bood me de kans om waardevolle kennis en vaardigheden op te doen in een snelgroeiend veld. Naast het leren over AI en Machine Learning, kreeg ik ook de kans om de unieke natuur en cultuur van Zuid-Afrika te ervaren, van de adembenemende natuurlijke schoonheid zoals Pilanesberg, Krugerpark en Drakensbergen tot de bruisende steden zoals Johannesburg en Kaapstad. Dit alles vond plaats gedurende de periode van februari 2023 tot en met juni 2023.",
-    "gilde-bt": "In september 2023 ben ik begonnen aan de laatste fase van mijn studie HBO-ICT, mijn eindstage software engineering. Ik loop deze stage momenteel bij Gilde-BT Software te Blerick, Venlo. Tijdens de stage werk ik aan een LLM (Large Language Model) module om een bestaand framework uit te breiden die intern gebruikt wordt. Dit sluit natuurlijk perfect aan bij de specialisatie die ik heb gevolgd in Zuid-Afrika. Deze stage zal duren tot en met januari 2024.",
-    "future": "Als softwareontwikkelaar ben ik enthousiast over de grenzeloze mogelijkheden die mijn toekomst in petto heeft en wil ik graag blijven leren en groeien in dit dynamische veld."
+    "fontys": {
+      "info": "Fontys",
+      "text": "In 2019 ben ik in de ICT begonnen bij Fontys Hogescholen in Eindhoven. De hoofdrichting van mijn studie is Software Engineering."
+    },
+    "cybersecurity": {
+      "info": "Cyber Security",
+      "text": "Ik heb een semester gedaan met de specialisatie Cyber Security waar ik goede kennis heb opgedaan over Ethical Hacking en Risk Consulting. Ik analyseerde de beveiliging van diverse IT-omgevingen met gangbare pentest-tools, zoals Nmap, Metasploit, Wireshark en Burp Suite. Ook analyseerde ik beveiligingsdreigingen en daaruit ontstaande bedrijfsrisico's volgens risicoanalysemethoden en adviseerde ik daarmee een klant over beveiligingsverbeteringen van een IT-omgeving op fysiek, technisch en organisatorisch vlak."
+    },
+    "curacao": {
+      "info": "Curaçao",
+      "text": "Van Februari 2022 tot Juli 2022 heb ik mijn stage Software Engineering gelopen op Curacao. Dit semester was een echte once-in-a-lifetime ervaring waar ik geweldige mensen heb ontmoet en mezelf kon onderdompelen in een levendige cultuur. Het was een unieke kans om te leren en te groeien als persoon, en ik ben dankbaar voor de herinneringen en ervaringen die ik altijd zal onthouden."
+    },
+    "enterprisesoftware": {
+      "info": "Enterprise Software",
+      "text": "Ik volgde een semester enterprise software engineering, waar ik alles leerde over schaalbare microservice-architecturen, cloudservices en Kubernetes. Het was een uitdagende ervaring, omdat ik diepgaande kennis en praktische vaardigheden opdeed die waardevol zullen zijn in mijn toekomstige carrière als softwareontwikkelaar."
+    },
+    "southafrica": {
+      "info": "Zuid-Afrika",
+      "text": "In Februari 2023 begon ik aan een spannende reis om meer te leren over AI en Machine Learning aan een universiteit in Pretoria, Belgium Campus. Tijdens mijn tijd in Zuid-Afrika leerde ik over verschillende models en frameworks waarmee ik geavanceerde AI-oplossingen kon creëren. Dit was een geweldige ervaring. Het bood me de kans om waardevolle kennis en vaardigheden op te doen in een snelgroeiend veld. Naast het leren over AI en Machine Learning, kreeg ik ook de kans om de unieke natuur en cultuur van Zuid-Afrika te ervaren, van de adembenemende natuurlijke schoonheid zoals Pilanesberg, Krugerpark en Drakensbergen tot de bruisende steden zoals Johannesburg en Kaapstad. Dit alles vond plaats gedurende de periode van februari 2023 tot en met juni 2023."
+    },
+    "gilde-bt": {
+      "info": "Gilde-BT",
+       "text": "In september 2023 ben ik begonnen aan de laatste fase van mijn studie HBO-ICT, mijn eindstage software engineering. Ik loop deze stage momenteel bij Gilde-BT Software te Blerick, Venlo. Tijdens de stage werk ik aan een LLM (Large Language Model) module om een bestaand framework uit te breiden die intern gebruikt wordt. Dit sluit natuurlijk perfect aan bij de specialisatie die ik heb gevolgd in Zuid-Afrika. Deze stage zal duren tot en met januari 2024."
+    },
+    "future": {
+      "info": "???",
+      "text": "Als softwareontwikkelaar ben ik enthousiast over de grenzeloze mogelijkheden die mijn toekomst in petto heeft en wil ik graag blijven leren en groeien in dit dynamische veld.",
+      "year": "Toekomst"
+    } 
   },
   "skills": "Vaardigheden",
   "projects": {
@@ -18,7 +40,7 @@
     "safespace": {
       "logo": "images/safespace-logo.png",
       "title": "SafeSpace",
-      "short_description": "SafeSpace is een compleet beveiliginssysteem voor thuis gecreëerd met 5 medestudenten in het eerste jaar van mijn opleiding. Het systeem is te bedienen via de desktop applicatie voor Windows.",
+      "short_description": "SafeSpace is een compleet beveiligingssysteem voor thuis gecreëerd met 5 medestudenten in het eerste jaar van mijn opleiding. Het systeem is te bedienen via de desktop applicatie voor Windows.",
       "description": [
         "SafeSpace is een alles-in-één huisbeveiligingssysteem dat tijdens het eerste semester is gemaakt door een team van 6 studenten. Het systeem bestaat uit zowel een desktop applicatie voor Windows als een applicatie voor iOS om de hardware aan te sturen en te monitoren. De desktop-applicatie is gemaakt met behulp van een WinForm-applicatie. Deze applicatie geeft de eindgebruiker de mogelijkheid om de camera's rondom het huis te monitoren, de deuren te vergrendelen en ontgrendelen, te zien of er binnen beweging is, details over je slimme deurbel te bekijken en de temperatuur en luchtvochtigheid binnen te monitoren.",
         "Ook hebben we elk hardware aspect van het systeem zelf gemaakt in ons prototype. Er was een Raspberry Pi die werd gebruikt om de camera's aan te sluiten op de lokale server en de feed te streamen, terwijl er ook een MQTT-server draaide om alle gegevens in huis te ontvangen. Voor alle verschillende sensoren en de deurbel hebben we een Arduino Mega gebruikt om de data uit te lezen en naar de MQTT-server te sturen. Een LCD-scherm werd gebruikt als info display in huis met statistieken."
@@ -101,7 +123,7 @@
       "description": [
         "LokaWin (Lokaal Winkelen) is een full-stack webapplicatie waar gebruikers op één centrale plek producten kunnen bestellen bij meerdere winkels in de regio om ze tegelijkertijd thuis te laten bezorgen. Je kunt het platform een beetje vergelijken met Amazon, waar elke winkel zich kan aanmelden om artikelen te verkopen via het platform, maar in plaats van dat de gebruiker producten van over de hele wereld bestelt, kun je producten bestellen bij lokale winkels in jouw buurt om zo de lokale economie te ondersteunen.",
         "Iedereen kan de kaart zien met alle aangesloten winkels zonder zich aan te melden om te zien welke winkels er in hun buurt beschikbaar zijn. Als je je aanmeldt kun je alle producten van de winkels zien, winkels sorteren op categorie of de producten sorteren op categorie. Op je persoonlijke profielpagina kun je de historie van al je bestellingen inzien, je favoriete winkels en producten bekijken, je recente zoekopdrachten bekijken of je persoonlijke gegevens wijzigen.",
-        "De frontend van de applicatie is gemaakt met Vue.js en de backend is gemaakt met Node.js en Express.js. Voor de database gebruikte ik MongoDB, die met Mongoose met de backend was verbonden. De applicatie werd thuis op een server gehost en werd automatisch op de server gedeployed als ik naar de GitHub-repository pushte."
+        "De frontend van de applicatie is gemaakt met Vue.js en de backend is gemaakt met Node.js en Express.js. Voor de database gebruikte ik MongoDB, die met Mongoose met de backend was verbonden. De applicatie werd thuis op een server gehost en werd automatisch op de server gezet als ik naar de GitHub-repository pushte."
       ],
       "images": [
         "images/lokawin-startpage.png",
@@ -158,7 +180,7 @@
       "description": [
         "Tijdens mijn stage op Curacao heb ik onderzoek gedaan naar low-code en no-code platformen. Na uitgebreid onderzoek heb ik ervoor gekozen om een prototype applicatie te maken met wat op dat moment naar mijn mening de beste low-code platformen waren, Mendix en OutSystems. Om een prototype te maken met voldoende complexe logica en een aantal algoritmen om deze platforms goed te testen, heb ik een autoverhuurapplicatie gemaakt.",
         "Wanneer de gebruiker de website bezoekt, kan hij elke auto in het wagenpark zien en zoeken naar beschikbare auto's voor een specifieke periode. Na het selecteren van een auto kunnen ze kiezen welke extra's ze aan hun boeking willen toevoegen en welke verzekeringen ze willen afsluiten. Na het invullen van hun persoonlijke gegevens en het verifiëren van hun boeking kunnen ze hun boeking betalen. Wanneer dit proces is voltooid, kan de gebruiker al zijn boekingen zien op de pagina Mijn boekingen.",
-        "Wanneer u inlogt met een administrator account kunt u alle auto's in het wagenpark zien, auto's toevoegen, auto's bewerken en de prijzen van de auto's wijzigen. Wanneer u hoogseizoendata toevoegt, betaalt de klant tijdens deze data een extra toeslag voor de auto. Wanneer u de prijzen van alle extra's en verzekeringen wat ze per dag kosten wilt wijzigen kan dat ook vanaf deze pagina. In het tabblad Boekingen kunt u alle eerdere en aankomende boekingen zien. Als je op een boeking klikt zie je alle details van de boeking en kun je een notitie aan de boeking toevoegen."
+        "Wanneer u inlogt met een administrator account kunt u alle auto's in het wagenpark zien, auto's toevoegen, auto's bewerken en de prijzen van de auto's wijzigen. Wanneer u hoogseizoen-data toevoegt, betaalt de klant tijdens deze data een extra toeslag voor de auto. Wanneer u de prijzen van alle extra's en verzekeringen wat ze per dag kosten wilt wijzigen kan dat ook vanaf deze pagina. In het tabblad Boekingen kunt u alle eerdere en aankomende boekingen zien. Als je op een boeking klikt zie je alle details van de boeking en kun je een notitie aan de boeking toevoegen."
       ],
       "images": [
         "images/carrental-homepage.png",
@@ -179,7 +201,7 @@
       "stakeholder_link": "https://ziontech.biz/"
     },
     "kwetter": {
-      "short_description": "In semester 6, enterprise software engineering, heb ik een Twitter kloon gemaakt met behulp van een microservice-architectuur en deze geïmplementeerd in een Kubernetes-cluster op een cloudplatform."
+      "short_description": "In semester 6, enterprise software engineering, heb ik een Twitter kloon gemaakt met behulp van een microservice-architectuur en deze geïmplementeerd in een Kubernetes-cluster op een cloud-platform."
     },
     "oefenpraktijk": {
       "short_description": "In semester 6 werkte ik ook aan een groepsproject met 4 andere studenten, waar we een webapplicatie creëerden voor GGZ-werkers om elkaar te vinden en hun ervaringen en kennis over bepaalde onderwerpen te delen."

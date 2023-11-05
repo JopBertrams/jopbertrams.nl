@@ -57,4 +57,18 @@
   .links a:hover {
     color: #747474;
   }
+
+  @media screen and (max-width: 735px) {
+    .footer {
+      flex-direction: column;
+    }
+
+    .text {
+      padding: 1rem;
+    }
+
+    .links {
+      padding: 1rem;
+    }
+  }
 </style>

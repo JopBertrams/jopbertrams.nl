@@ -105,7 +105,7 @@
   }
 
   h1 {
-    margin: 60px 0;
+    margin-bottom: 2rem;
     text-align: center;
   }
 

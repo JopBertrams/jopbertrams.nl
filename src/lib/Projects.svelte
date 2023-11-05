@@ -18,7 +18,7 @@
   styleCloseButton={{ margin: '10px' }}
 />
 <div class="projects">
-  <h1 class="title">{$_('projects.header')}</h1>
+  <h1>{$_('projects.header')}</h1>
   <div class="grid-container">
     <div class="grid-item" data-aos="zoom-in-right">
       <div class="text">
@@ -110,17 +110,17 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
+    padding: 2rem;
   }
 
-  .title {
-    margin: 60px 0;
+  h1 {
+    margin-bottom: 2rem;
   }
 
   .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
-    width: 90%;
     max-width: 1200px;
     margin-bottom: 4rem;
   }

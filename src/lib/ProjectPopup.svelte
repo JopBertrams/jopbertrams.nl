@@ -117,7 +117,7 @@
     {/if}
   {/each}
   <div class="dots">
-    <div class="previous" on:click={() => previousImage()}>
+    <button class="previous" on:click={() => previousImage()}>
       <svg
         width="24"
         height="24"
@@ -130,23 +130,23 @@
           fill="#8A8A8A"
         />
       </svg>
-    </div>
+    </button>
     {#each images as image, i}
       {#if i == 0}
-        <span
+        <button
           class="dot"
           style="background-color: #000000;"
           on:click={() => handleDotClick(i)}
         />
       {:else}
-        <span
+        <button
           class="dot"
           style="background-color: #8A8A8A"
           on:click={() => handleDotClick(i)}
         />
       {/if}
     {/each}
-    <div class="next" on:click={() => nextImage()}>
+    <button class="next" on:click={() => nextImage()}>
       <svg
         width="24"
         height="24"
@@ -159,7 +159,7 @@
           fill="#8A8A8A"
         />
       </svg>
-    </div>
+    </button>
   </div>
   <div class="text">
     <h2>Description</h2>
@@ -208,6 +208,20 @@
     display: block;
   }
 
+  button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+
+  button:focus {
+    outline: 2px solid #000;
+  }
+
   .dots {
     display: flex;
     justify-content: center;
@@ -253,6 +267,10 @@
   }
 
   a:hover {
+    text-decoration: underline;
+  }
+
+  a:focus {
     text-decoration: underline;
   }
 </style>

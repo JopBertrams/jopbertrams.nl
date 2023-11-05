@@ -23,7 +23,7 @@
         >
           <img
             src="https://img.icons8.com/fluent/48/000000/linkedin.png"
-            alt="linkedin"
+            alt="LinkedIn"
           />
         </a>
         <a
@@ -33,7 +33,7 @@
         >
           <img
             src="https://img.icons8.com/fluent/48/000000/github.png"
-            alt="github"
+            alt="GitHub"
           />
         </a>
         <a
@@ -43,7 +43,7 @@
         >
           <img
             src="https://img.icons8.com/fluent/48/000000/instagram-new.png"
-            alt="instagram"
+            alt="Instagram"
           />
         </a>
       </div>
@@ -56,7 +56,6 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 60vh;
     background-color: #0b1216;
   }
 
@@ -65,17 +64,20 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    height: 100%;
   }
 
   .image {
-    padding: 2rem;
-    text-align: center;
+    width: 30%;
+    height: 0;
+    padding-bottom: 20%;
+    margin: 2rem 0;
+    position: relative;
   }
 
   .image img {
+    position: absolute;
     width: 100%;
+    height: 100%;
   }
 
   .text {
@@ -89,15 +91,31 @@
     margin-top: 1rem;
   }
 
+  @media screen and (max-width: 1270px) {
+    .image {
+      width: 50%;
+      height: 0;
+      padding-bottom: 30%;
+      position: relative;
+    }
+  }
+
   @media screen and (max-width: 850px) {
     .introduction {
       flex-direction: column;
-      height: 100vh;
     }
 
     .container {
       flex-direction: column;
       width: 100%;
+    }
+
+    .image {
+      width: 50%;
+      height: 0;
+      padding-bottom: 40%;
+      position: relative;
+      margin-bottom: 0;
     }
 
     .text {
