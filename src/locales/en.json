@@ -1,16 +1,38 @@
 {
-  "hero_text": "21 years old software engineering student, living in the Netherlands. Skilled in .NET technologies and more.",
+  "hero_text": "21 years old software engineering student, living in the Netherlands. Skilled in .NET Technologies and more.",
   "hero_button": "Scroll down to discover more",
   "introduction": "My name is Jop Bertrams, 21 years old, and I am a software engineering student. I have been studying ICT for the past few years at Fontys University of Applied Sciences in Eindhoven, and have developed a strong foundation in the principles and techniques of software development. I am excited to share with you some of the projects I have worked on during my study, which showcase my abilities in areas such as problem-solving, coding, and collaboration. I am eager to continue learning and growing as a software engineer, and I hope to use my skills to create innovative and impactful technology solutions in the future.",
   "timeline": {
     "header": "Timeline",
-    "fontys": "In 2019, I began my journey in the field of ICT at Fontys University of Applied Sciences in Eindhoven. The main course of my study is Software Engineering.",
-    "cybersecurity": "I did one semester with the specialisation Cyber Security where I have gained some good knowledge of Ethical Hacking and Risk Consulting. I analysed the security of diverse IT environments with common pen-testing tools, such as Nmap, Metasploit, Wireshark and Burp Suite. I also analysed security threats and resulting business risks according to risk analysis methods and advised a client on security improvements of an IT environment on a physical, technical and organizational level.",
-    "curacao": "From February 2022 to July 2022 I did my internship Software Engineering on Curacao. This semester was truly a once-in-a-lifetime experience where I met lovely people and was able to immerse myself in a vibrant culture. It was a unique opportunity to learn and grow as a person, and I am grateful for the memories and experiences that I will always treasure.",
-    "enterprisesoftware": "I had a semester of enterprise software engineering, where I learned all about scalable microservice architectures, cloud services, and Kubernetes. It was a challenging experience as I gained in-depth knowledge and practical skills that will be valuable in my future career as a software developer.",
-    "southafrica": "In February 2023, I started an exciting journey to learn more about AI and Machine Learning at a university in Pretoria, Belgium Campus. During my time in South Africa, I learned about different models and frameworks that allowed me to create advanced AI solutions. This was a great experience. It gave me the opportunity to gain valuable knowledge and skills in a fast-growing field. In addition to learning about AI and Machine Learning, I also had the opportunity to experience the unique nature and culture of South Africa, from the breathtaking natural beauty such as Pilanesberg, Kruger Park and Drakensberg to the vibrant cities such as Johannesburg and Cape Town. All this took place during the period from February 2023 to June 2023.",
-    "gilde-bt": "In September 2023, I started the final phase of my HBO-ICT studies, my final internship in software engineering. I am currently doing this internship at Gilde-BT Software in Blerick, Venlo. During the internship I work on an LLM (Large Language Model) module to expand an existing framework that is used internally. This of course fits in perfectly with the specialization I followed in South Africa. This internship will last until January 2024.",
-    "future": "As a software developer, I am excited for the limitless possibilities that my future holds and am eager to continue learning and growing in this dynamic field."
+    "fontys": {
+      "info": "Fontys",
+      "text": "In 2019, I began my journey in the field of ICT at Fontys University of Applied Sciences in Eindhoven. The main course of my study is Software Engineering."
+    },
+    "cybersecurity": {
+      "info": "Cyber Security",
+      "text": "I did one semester with the specialization Cyber Security where I have gained some good knowledge of Ethical Hacking and Risk Consulting. I analyzed the security of diverse IT environments with common pen-testing tools, such as Nmap, Metasploit, Wireshark and Burp Suite. I also analyzed security threats and resulting business risks according to risk analysis methods and advised a client on security improvements of an IT environment on a physical, technical and organizational level."
+    },
+    "curacao": {
+      "info": "Curacao",
+      "text": "From February 2022 to July 2022 I did my internship Software Engineering on Curacao. This semester was truly a once-in-a-lifetime experience where I met lovely people and was able to immerse myself in a vibrant culture. It was a unique opportunity to learn and grow as a person, and I am grateful for the memories and experiences that I will always treasure."
+    },
+    "enterprisesoftware": {
+      "info": "Enterprise Software",
+      "text": "I had a semester of enterprise software engineering, where I learned all about scalable microservice architectures, cloud services, and Kubernetes. It was a challenging experience as I gained in-depth knowledge and practical skills that will be valuable in my future career as a software developer."
+    },
+    "southafrica": {
+      "info": "South Africa",
+      "text": "In February 2023, I started an exciting journey to learn more about AI and Machine Learning at a university in Pretoria, Belgium Campus. During my time in South Africa, I learned about different models and frameworks that allowed me to create advanced AI solutions. This was a great experience. It gave me the opportunity to gain valuable knowledge and skills in a fast-growing field. In addition to learning about AI and Machine Learning, I also had the opportunity to experience the unique nature and culture of South Africa, from the breathtaking natural beauty such as Pilanesberg, Kruger Park and Drakensberg to the vibrant cities such as Johannesburg and Cape Town. All this took place during the period from February 2023 to June 2023."
+    },
+    "gilde-bt": {
+      "info": "Gilde-BT",
+      "text": "In September 2023, I started the final phase of my HBO-ICT studies, my final internship in software engineering. I am currently doing this internship at Gilde-BT Software in Blerick, Venlo. During the internship I work on an LLM (Large Language Model) module to expand an existing framework that is used internally. This of course fits in perfectly with the specialization I followed in South Africa. This internship will last until January 2024."
+    },
+    "future": {
+      "info": "???",
+      "text": "As a software developer, I am excited for the limitless possibilities that my future holds and am eager to continue learning and growing in this dynamic field.",
+      "year": "Future"
+    } 
   },
   "skills": "Skills",
   "projects": {
@@ -20,8 +42,8 @@
       "title": "SafeSpace",
       "short_description": "SafeSpace is an all-in-one home security system that was created by a team of 6 students during the first semester. The system consists of both a desktop application for Windows and an application for iOS to control and monitor the hardware.",
       "description": [
-        "SafeSpace is an all-in-one home security system that was created by a team of 6 students during the first semester. The system consists of both a desktop application for Windows and an application for iOS to control and monitor the hardware. The desktop application was made using a WinForm application. This application gave the end-user the possibilities to monitor the cameras around the house, lock and unlock the doors, see if there is any motion inside, see details about your smart doorbell and monitor the temprature and humidity inside.",
-        "We also made every hardware aspect of the system ourselfs in our prototype. There was a Raspberry Pi that was used to connect the cameras to the on premise server and stream the feed, while there was also a MQTT server running to receive all the data in the house. For all the different sensors and the doorbell we used an Arduino Mega to read the data and send it to the MQTT server. A LCD screen was used to display a short status inside the house."
+        "SafeSpace is an all-in-one home security system that was created by a team of 6 students during the first semester. The system consists of both a desktop application for Windows and an application for iOS to control and monitor the hardware. The desktop application was made using a WinForm application. This application gave the end-user the possibilities to monitor the cameras around the house, lock and unlock the doors, see if there is any motion inside, see details about your smart doorbell and monitor the temperature and humidity inside.",
+        "We also made every hardware aspect of the system ourself in our prototype. There was a Raspberry Pi that was used to connect the cameras to the on premise server and stream the feed, while there was also a MQTT server running to receive all the data in the house. For all the different sensors and the doorbell we used an Arduino Mega to read the data and send it to the MQTT server. A LCD screen was used to display a short status inside the house."
       ],
       "images": [
         "images/safespace-dashboard.png",
@@ -54,7 +76,7 @@
       "short_description": "Het tweede project in mijn eerste jaar ICT & Software Engineering is een chatbot gemaakt voor mensen die mogelijk in eenzaamheid leven. De chatbot moest makkelijk toegankelijk zijn voor senioren zonder uitgebreide kennis van computers.",
       "description": [
         "The second project in my first year of ICT & Software Engineering is a chatbot made for people who might be lonely. The chatbot had to be easily accessible for seniors without extensive computer knowledge. The chatbot was made using the Microsoft Bot Framework and was hosted on Azure. The chatbot was made in a team of 4 students.",
-        "The bot made use of Microsoft Language Understanding (LUIS), a cloud-based conversational AI service that applied our custom machine-learning intelligence made for this project. The bot was able to understand the user's intent with corrosponding entities and respond accordingly. When you wanted to share your name and age with the bot, it would make the conversation more personal, but if you preffered to stay anonymous, the bot would still be able to help you.",
+        "The bot made use of Microsoft Language Understanding (LUIS), a cloud-based conversational AI service that applied our custom machine-learning intelligence made for this project. The bot was able to understand the user's intent with corresponding entities and respond accordingly. When you wanted to share your name and age with the bot, it would make the conversation more personal, but if you preferred to stay anonymous, the bot would still be able to help you.",
         "The bot was able to ask you questions about your social life and give you a score based on your answers. The bot was also able to give you tips on how to improve your social life."
       ],
       "images": [
@@ -127,9 +149,9 @@
     "smartassettracking": {
       "logo": "images/smartassettracking-logo.png",
       "title": "Smart Asset Tracking",
-      "short_description": "Smart Asset Tracking is a service consisting of a web application and a mobile application. The web application is used by the back office of the company to track the vans transporting the assets. The mobile application is used by the drivers of the vans to send the location of the van and the temprature of the loading space to the back office.",
+      "short_description": "Smart Asset Tracking is a service consisting of a web application and a mobile application. The web application is used by the back office of the company to track the vans transporting the assets. The mobile application is used by the drivers of the vans to send the location of the van and the temperature of the loading space to the back office.",
       "description": [
-        "Smart Asset Tracking is a service consisting of a web application and a mobile application. The web application is used by the back office of the company to track the vans transporting the assets and monitoring the temprature and humidity from the back of the van. The mobile application is used by the drivers of the vans to send the location of the van and the temprature of the loading space to the back office. The back office can see the location of the vans on a map. When the temperature is too high or too low, the back office and the driver will receive a notification. The back office can also see the history of the temperature of the loading space.",
+        "Smart Asset Tracking is a service consisting of a web application and a mobile application. The web application is used by the back office of the company to track the vans transporting the assets and monitoring the temperature and humidity from the back of the van. The mobile application is used by the drivers of the vans to send the location of the van and the temperature of the loading space to the back office. The back office can see the location of the vans on a map. When the temperature is too high or too low, the back office and the driver will receive a notification. The back office can also see the history of the temperature of the loading space.",
         "I mostly worked on the mobile application this project. This application was made with Xamarin. The application was connected to a RuuviTag sensor in the back of the van over Bluetooth Low Energy to get the temperature and humidity. The application also used the GPS of the phone to get the location of the van. The application was connected to the back office using a REST API.",
         "The frontend of the back office application was made using React, and the backend using ASP.NET Core Web API. This backend stored all the information of the vans and the drivers in a MySQL database."
       ],

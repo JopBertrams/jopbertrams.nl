@@ -26,50 +26,56 @@
   <div class="flex-parent">
     <div class="input-flex-container">
       <div class="input">
-        <span data-year="2019" data-info="Fontys" />
+        <span data-year="2019" data-info={$_('timeline.fontys.info')} />
       </div>
       <div class="input">
-        <span data-year="2021" data-info="Cyber Security" />
+        <span data-year="2021" data-info={$_('timeline.cybersecurity.info')} />
       </div>
       <div class="input">
-        <span data-year="2022" data-info="Curacao" />
+        <span data-year="2022" data-info={$_('timeline.curacao.info')} />
       </div>
       <div class="input">
-        <span data-year="2022" data-info="Enterprise Software" />
+        <span
+          data-year="2022"
+          data-info={$_('timeline.enterprisesoftware.info')}
+        />
       </div>
       <div class="input">
-        <span data-year="2023" data-info="South Africa" />
+        <span data-year="2023" data-info={$_('timeline.southafrica.info')} />
       </div>
       <div class="input active">
-        <span data-year="2023" data-info="Gilde-BT" />
+        <span data-year="2023" data-info={$_('timeline.gilde-bt.info')} />
       </div>
       <div class="input">
-        <span data-year="Future" data-info="???" />
+        <span
+          data-year={$_('timeline.future.year')}
+          data-info={$_('timeline.future.info')}
+        />
       </div>
     </div>
     <div class="description-flex-container">
-      <p>{$_('timeline.fontys')}</p>
-      <p>{$_('timeline.cybersecurity')}</p>
-      <p>{$_('timeline.curacao')}</p>
-      <p>{$_('timeline.enterprisesoftware')}</p>
-      <p>{$_('timeline.southafrica')}</p>
-      <p class="active">{$_('timeline.gilde-bt')}</p>
-      <p>{$_('timeline.future')}</p>
+      <p>{$_('timeline.fontys.text')}</p>
+      <p>{$_('timeline.cybersecurity.text')}</p>
+      <p>{$_('timeline.curacao.text')}</p>
+      <p>{$_('timeline.enterprisesoftware.text')}</p>
+      <p>{$_('timeline.southafrica.text')}</p>
+      <p class="active">{$_('timeline.gilde-bt.text')}</p>
+      <p>{$_('timeline.future.text')}</p>
     </div>
   </div>
 </div>
 
 <style>
   .timeline {
-    min-height: 50vh;
+    /* min-height: 50vh; */
     position: relative;
     z-index: 0;
+    padding: 2rem;
   }
 
   h1 {
     text-align: center;
-    height: 38px;
-    margin: 60px 0;
+    margin-bottom: 100px;
   }
 
   .flex-parent {
@@ -84,7 +90,7 @@
     justify-content: space-around;
     align-items: center;
     width: 80vw;
-    height: 100px;
+    /* height: 100px; */
     max-width: 1000px;
     position: relative;
     z-index: 0;
@@ -144,21 +150,19 @@
     content: attr(data-year);
     top: 25px;
     transform: translateX(-50%);
-    font-size: 16px;
+    font-size: 1.2em;
   }
   .input span::before {
     content: attr(data-info);
-    top: -65px;
-    width: 100px;
+    top: -75px;
+    width: 150px;
     transform: rotateZ(-25deg);
-    font-size: 12px;
     text-indent: -10px;
   }
 
   .description-flex-container {
     width: 80vw;
     text-align: center;
-    font-size: larger;
     margin-top: 100px;
     max-width: 1000px;
   }
@@ -225,6 +229,10 @@
     }
   }
   @media (max-width: 600px) {
+    h1 {
+      margin-bottom: 0;
+    }
+
     .flex-parent {
       justify-content: initial;
     }
@@ -232,13 +240,12 @@
       flex-wrap: wrap;
       justify-content: center;
       width: 100%;
-      height: auto;
-      margin-top: 15vh;
+      margin-top: 2rem;
     }
     .input {
       width: 60px;
       height: 60px;
-      margin: 0 10px 50px;
+      margin: 30px 10px;
       background-color: #aeb6bf;
     }
     .input::before,
@@ -255,6 +262,7 @@
       transform: translateX(-50%);
       text-indent: 0;
       text-align: center;
+      max-width: 60px;
     }
     .input span::after {
       top: 50%;
@@ -262,13 +270,11 @@
       color: #ecf0f1;
     }
     .description-flex-container {
-      margin-top: 30px;
+      margin-top: 60px;
       text-align: center;
     }
-  }
-  @media (max-width: 400px) {
-    body {
-      min-height: 950px;
+    .input-flex-container .input:last-child > span::after {
+      font-size: 12px;
     }
   }
 </style>

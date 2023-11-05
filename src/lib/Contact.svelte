@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     background-color: #0b1216;
+    padding: 2rem;
   }
 
   .contact-container {
@@ -24,21 +25,15 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 90%;
     max-width: 800px;
   }
 
-  .contact-container h1 {
-    margin: 60px 0;
-  }
-
-  .contact-container p {
-    font-size: 1.5rem;
+  h1 {
+    margin-bottom: 1rem;
   }
 
   .contact-container a {
-    margin: 60px 0;
-    font-size: 1.5rem;
+    margin-top: 1.5rem;
     color: #ffffff;
     text-decoration: none;
   }
