@@ -1,42 +1,49 @@
 {
-  "hero_text": "21 years old software engineering student, living in the Netherlands. Skilled in .NET Technologies and more.",
+  "hero_text": "Graduated software engineer from the Netherlands, skilled in .NET technologies and more.",
   "hero_button": "Scroll down to discover more",
-  "introduction": "My name is Jop Bertrams, 21 years old, and I am a software engineering student. I have been studying ICT for the past few years at Fontys University of Applied Sciences in Eindhoven, and have developed a strong foundation in the principles and techniques of software development. I am excited to share with you some of the projects I have worked on during my study, which showcase my abilities in areas such as problem-solving, coding, and collaboration. I am eager to continue learning and growing as a software engineer, and I hope to use my skills to create innovative and impactful technology solutions in the future.",
+  "introduction": {
+    "tooltip": "Hello World! A well-known phrase in the programming world, but for me, a beautiful phrase because I have seen so much in the world.",
+    "text": "My name is Jop Bertrams, 21 years old, and in 2024 I graduated in ICT at Fontys University of Applied Sciences in Eindhoven. Currently I am working as a full-time software engineer at Gilde-BT Software in Blerick, Venlo. Through my studies and work experience, I have developed a strong foundation in various software development techniques. I would like to showcase some of the projects I have worked on, which demonstrate my capabilities in problem-solving, programming, and collaboration. I am excited to continue learning and growing as a software engineer and am always looking for new challenges and opportunities to improve my skills."
+  },
   "timeline": {
     "header": "Timeline",
     "fontys": {
       "info": "Fontys",
-      "text": "In 2019, I began my journey in the field of ICT at Fontys University of Applied Sciences in Eindhoven. The main course of my study is Software Engineering."
+      "text": "In 2019, I started my ICT studies at Fontys University of Applied Sciences in Eindhoven, focusing on software engineering."
     },
     "cybersecurity": {
       "info": "Cyber Security",
-      "text": "I did one semester with the specialization Cyber Security where I have gained some good knowledge of Ethical Hacking and Risk Consulting. I analyzed the security of diverse IT environments with common pen-testing tools, such as Nmap, Metasploit, Wireshark and Burp Suite. I also analyzed security threats and resulting business risks according to risk analysis methods and advised a client on security improvements of an IT environment on a physical, technical and organizational level."
+      "text": "During my studies, I specialized in Cyber Security for a semester, gaining knowledge in Ethical Hacking and Risk Consulting. I analyzed the security of various IT environments using common pentest tools such as Nmap, Metasploit, Wireshark, and Burp Suite. Additionally, I assessed security threats and business risks using risk analysis methods and advised a client on security improvements for an IT environment on physical, technical, and organizational levels."
     },
     "curacao": {
       "info": "Curacao",
-      "text": "From February 2022 to July 2022 I did my internship Software Engineering on Curacao. This semester was truly a once-in-a-lifetime experience where I met lovely people and was able to immerse myself in a vibrant culture. It was a unique opportunity to learn and grow as a person, and I am grateful for the memories and experiences that I will always treasure."
+      "text": "From February 2022 to July 2022 I did an internship software engineering in Curacao. This experience was unique and unforgettable, where I met amazing people and immersed myself in a vibrant culture. It was an opportunity to grow both personally and professionally, and I am grateful for the valuable memories and experiences."
     },
     "enterprisesoftware": {
       "info": "Enterprise Software",
-      "text": "I had a semester of enterprise software engineering, where I learned all about scalable microservice architectures, cloud services, and Kubernetes. It was a challenging experience as I gained in-depth knowledge and practical skills that will be valuable in my future career as a software developer."
+      "text": "During a semester of enterprise software engineering, I learned all about scalable microservice architectures, cloud services, and Kubernetes. This challenging experience provided me with in-depth knowledge and practical skills that are highly valuable in my career as a software developer."
     },
     "southafrica": {
       "info": "South Africa",
-      "text": "In February 2023, I started an exciting journey to learn more about AI and Machine Learning at a university in Pretoria, Belgium Campus. During my time in South Africa, I learned about different models and frameworks that allowed me to create advanced AI solutions. This was a great experience. It gave me the opportunity to gain valuable knowledge and skills in a fast-growing field. In addition to learning about AI and Machine Learning, I also had the opportunity to experience the unique nature and culture of South Africa, from the breathtaking natural beauty such as Pilanesberg, Kruger Park and Drakensberg to the vibrant cities such as Johannesburg and Cape Town. All this took place during the period from February 2023 to June 2023."
+      "text": "From February 2023 to June 2023, I delved into AI and Machine Learning at the Belgium Campus university in Pretoria, South Africa. During this period, I learned about various models and frameworks for creating advanced AI solutions. Besides academic enrichment, I also had the chance to experience the unique nature and culture of South Africa, from the breathtaking natural beauties such as Pilanesberg, Kruger Park, and Drakensberg to the vibrant cities such as Johannesburg and Cape Town."
     },
     "gilde-bt": {
       "info": "Gilde-BT",
-      "text": "In September 2023, I started the final phase of my HBO-ICT studies, my final internship in software engineering. I am currently doing this internship at Gilde-BT Software in Blerick, Venlo. During the internship I work on an LLM (Large Language Model) module to expand an existing framework that is used internally. This of course fits in perfectly with the specialization I followed in South Africa. This internship will last until January 2024."
+      "text": "In September 2023, I started my final internship in software engineering at Gilde-BT Software in Blerick, Venlo. Here, I worked on an LLM (Large Language Model) module to extend an internal framework. The knowledge about AI and Machine Learning that I gained in South Africa came in handy during this internship and matched perfectly with my expertise. This internship lasted until January 2024 and marked the end of my HBO-ICT education. After my internship, I stayed at Gilde-BT Software as a full-time software engineer due to the good working atmosphere and the opportunity to further develop myself."
     },
     "future": {
       "info": "???",
-      "text": "As a software developer, I am excited for the limitless possibilities that my future holds and am eager to continue learning and growing in this dynamic field.",
+      "text": "As a software engineer, I am excited about the limitless possibilities the future holds. I am determined to keep learning and growing in this dynamic field.",
       "year": "Future"
-    } 
+    }
   },
   "skills": "Skills",
   "projects": {
     "header": "Projects",
+    "learnmore_button": "Learn more...",
+    "description_header": "Description",
+    "technologies_header": "Used technologies",
+    "stakeholder_header": "Stakeholder",
     "safespace": {
       "logo": "images/safespace-logo.png",
       "title": "SafeSpace",
@@ -73,7 +80,7 @@
     "chatbot": {
       "logo": "images/chatbot-logo.png",
       "title": "Chatbot",
-      "short_description": "Het tweede project in mijn eerste jaar ICT & Software Engineering is een chatbot gemaakt voor mensen die mogelijk in eenzaamheid leven. De chatbot moest makkelijk toegankelijk zijn voor senioren zonder uitgebreide kennis van computers.",
+      "short_description": "The second project in my first year of ICT & Software Engineering is a chatbot created for people who may live in loneliness and/or social isolation. The chatbot had to be easily accessible for seniors without extensive knowledge of computers.",
       "description": [
         "The second project in my first year of ICT & Software Engineering is a chatbot made for people who might be lonely. The chatbot had to be easily accessible for seniors without extensive computer knowledge. The chatbot was made using the Microsoft Bot Framework and was hosted on Azure. The chatbot was made in a team of 4 students.",
         "The bot made use of Microsoft Language Understanding (LUIS), a cloud-based conversational AI service that applied our custom machine-learning intelligence made for this project. The bot was able to understand the user's intent with corresponding entities and respond accordingly. When you wanted to share your name and age with the bot, it would make the conversation more personal, but if you preferred to stay anonymous, the bot would still be able to help you.",
@@ -119,9 +126,9 @@
     "lokawin": {
       "logo": "images/lokawin-logo.png",
       "title": "LokaWin",
-      "short_description": "LokaWin (Lokaal Winkelen), is een full-stack web applicatie waar gebruikers producten van meerdere winkels uit de regio op één centrale plek kunnen bestellen om deze thuis te laten bezorgen.",
+      "short_description": "LokaWin (Lokaal Winkelen), is a full-stack web application where users can order products from multiple stores in their region in one central place to have them delivered to their home.",
       "description": [
-        "LokaWin (Lokaal Winkelen), is a full-stack web application where users can order products from multiple stores in the region on one central place to have them delivered at home at the same time. You can compare the platform slightly to Amazon, where every store can sign up to sell items trough this platform, but instead of the end-user ordering products from all over the world, you can order products from local stores in your area to support local businesses.",
+        "LokaWin (Lokaal Winkelen), is a full-stack web application where users can order products from multiple stores in their region in one central place to have them delivered at home at the same time. You can compare the platform slightly to Amazon, where every store can sign up to sell items trough this platform, but instead of the end-user ordering products from all over the world, you can order products from local stores in your area to support local businesses.",
         "Everyone can see the map with all affiliated stores without signing up to see what stores are available in their area. When you sign up you can see all the products of the stores, sort stores by category or sort the products by category. On your personal profile page you can see a history of all your orders, see your favorite stores and products, look at your recent searches or change your personal details.",
         "The frontend of the application was made using Vue.js and the backend was made using Node.js and Express.js. For the database I used MongoDB, which was connected to the backend using Mongoose. The application was hosted on a server at home, and got automatically deployed to the server when I pushed to the GitHub repository."
       ],

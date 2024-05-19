@@ -1,42 +1,49 @@
 {
-  "hero_text": "21-jarige student software engineering uit Nederland, beschikkend over kennis in .NET-technologieën en meer",
+  "hero_text": "Afgestudeerde software engineer uit Nederland, beschikkend over kennis in .NET-technologieën en meer.",
   "hero_button": "Scroll om meer te ontdekken",
-  "introduction": "Mijn naam is Jop Bertrams, 21 jaar oud, en ik ben student software engineering. Ik heb de afgelopen jaren ICT gestudeerd aan de Fontys Hogeschool in Eindhoven en heb een sterke basis ontwikkeld in verschillende technieken van softwareontwikkeling. Ik laat graag enkele van de projecten zien waaraan ik tijdens mijn studie heb gewerkt, die mijn capaciteiten laten zien op het gebied van probleemoplossing, programmeren en samenwerking. Ik sta open om te blijven leren en groeien als software-engineer, en ik hoop mijn vaardigheden te gebruiken om in de toekomst impactvolle oplossingen te creëren.",
+  "introduction": {
+    "tooltip": "Hello World! Een bekende zin in de programmeerwereld, maar voor mij een mooie zin omdat ik al zoveel heb mogen zien in de wereld.",
+    "text": "Mijn naam is Jop Bertrams, ik ben 21 jaar oud en heb in 2024 de opleiding HBO-ICT afgerond aan de Fontys Hogeschool in Eindhoven. Momenteel werk ik als fulltime software engineer bij Gilde-BT Software in Blerick, Venlo. Door mijn studie en werkervaring heb ik een sterke basis ontwikkeld in verschillende technieken van softwareontwikkeling. Ik laat graag enkele van de projecten zien waaraan ik heb gewerkt, die mijn capaciteiten op het gebied van probleemoplossing, programmeren en samenwerking laten zien. Ik ben enthousiast om te blijven leren en groeien als software engineer en ben altijd op zoek naar nieuwe uitdagingen en mogelijkheden om mijn vaardigheden te verbeteren."
+  },
   "timeline": {
     "header": "Tijdlijn",
     "fontys": {
       "info": "Fontys",
-      "text": "In 2019 ben ik in de ICT begonnen bij Fontys Hogescholen in Eindhoven. De hoofdrichting van mijn studie is Software Engineering."
+      "text": "In 2019 begon ik mijn ICT-opleiding aan de Fontys Hogeschool in Eindhoven, met een focus op software engineering."
     },
     "cybersecurity": {
       "info": "Cyber Security",
-      "text": "Ik heb een semester gedaan met de specialisatie Cyber Security waar ik goede kennis heb opgedaan over Ethical Hacking en Risk Consulting. Ik analyseerde de beveiliging van diverse IT-omgevingen met gangbare pentest-tools, zoals Nmap, Metasploit, Wireshark en Burp Suite. Ook analyseerde ik beveiligingsdreigingen en daaruit ontstaande bedrijfsrisico's volgens risicoanalysemethoden en adviseerde ik daarmee een klant over beveiligingsverbeteringen van een IT-omgeving op fysiek, technisch en organisatorisch vlak."
+      "text": "Tijdens mijn studie specialiseerde ik me een semester in Cyber Security, waarbij ik kennis opdeed over Ethical Hacking en Risk Consulting. Ik analyseerde de beveiliging van diverse IT-omgevingen met gangbare pentest-tools, zoals Nmap, Metasploit, Wireshark en Burp Suite. Daarnaast beoordeelde ik beveiligingsdreigingen en bedrijfsrisico's volgens risicoanalysemethoden en adviseerde ik een klant over beveiligingsverbeteringen van een IT-omgeving op fysiek, technisch en organisatorisch vlak."
     },
     "curacao": {
       "info": "Curaçao",
-      "text": "Van Februari 2022 tot Juli 2022 heb ik mijn stage Software Engineering gelopen op Curacao. Dit semester was een echte once-in-a-lifetime ervaring waar ik geweldige mensen heb ontmoet en mezelf kon onderdompelen in een levendige cultuur. Het was een unieke kans om te leren en te groeien als persoon, en ik ben dankbaar voor de herinneringen en ervaringen die ik altijd zal onthouden."
+      "text": "Van februari 2022 tot juli 2022 liep ik stage in software engineering op Curaçao. Deze ervaring was uniek en onvergetelijk, waarbij ik geweldige mensen ontmoette en mezelf onderdompelde in een levendige cultuur. Het was een kans om zowel persoonlijk als professioneel te groeien, en ik ben dankbaar voor de waardevolle herinneringen en ervaringen."
     },
     "enterprisesoftware": {
       "info": "Enterprise Software",
-      "text": "Ik volgde een semester enterprise software engineering, waar ik alles leerde over schaalbare microservice-architecturen, cloudservices en Kubernetes. Het was een uitdagende ervaring, omdat ik diepgaande kennis en praktische vaardigheden opdeed die waardevol zullen zijn in mijn toekomstige carrière als softwareontwikkelaar."
+      "text": "Tijdens een semester enterprise software engineering leerde ik alles over schaalbare microservice-architecturen, cloudservices en Kubernetes. Deze uitdagende ervaring heeft me voorzien van diepgaande kennis en praktische vaardigheden die van grote waarde zijn in mijn carrière als softwareontwikkelaar."
     },
     "southafrica": {
       "info": "Zuid-Afrika",
-      "text": "In Februari 2023 begon ik aan een spannende reis om meer te leren over AI en Machine Learning aan een universiteit in Pretoria, Belgium Campus. Tijdens mijn tijd in Zuid-Afrika leerde ik over verschillende models en frameworks waarmee ik geavanceerde AI-oplossingen kon creëren. Dit was een geweldige ervaring. Het bood me de kans om waardevolle kennis en vaardigheden op te doen in een snelgroeiend veld. Naast het leren over AI en Machine Learning, kreeg ik ook de kans om de unieke natuur en cultuur van Zuid-Afrika te ervaren, van de adembenemende natuurlijke schoonheid zoals Pilanesberg, Krugerpark en Drakensbergen tot de bruisende steden zoals Johannesburg en Kaapstad. Dit alles vond plaats gedurende de periode van februari 2023 tot en met juni 2023."
+      "text": "Van februari 2023 tot juni 2023 verdiepte ik me in AI en Machine Learning aan de Belgium Campus universiteit in Pretoria, Zuid-Afrika. Tijdens deze periode leerde ik over diverse modellen en frameworks voor het creëren van geavanceerde AI-oplossingen. Naast academische verrijking, kreeg ik ook de kans om de unieke natuur en cultuur van Zuid-Afrika te ervaren, van de adembenemende natuurlijke schoonheid zoals Pilanesberg, Krugerpark en Drakensbergen tot de bruisende steden zoals Johannesburg en Kaapstad."
     },
     "gilde-bt": {
       "info": "Gilde-BT",
-       "text": "In september 2023 ben ik begonnen aan de laatste fase van mijn studie HBO-ICT, mijn eindstage software engineering. Ik loop deze stage momenteel bij Gilde-BT Software te Blerick, Venlo. Tijdens de stage werk ik aan een LLM (Large Language Model) module om een bestaand framework uit te breiden die intern gebruikt wordt. Dit sluit natuurlijk perfect aan bij de specialisatie die ik heb gevolgd in Zuid-Afrika. Deze stage zal duren tot en met januari 2024."
+      "text": "In september 2023 begon ik aan mijn eindstage software engineering bij Gilde-BT Software in Blerick, Venlo. Hier werkte ik aan een LLM (Large Language Model) module om een intern framework uit te breiden. De kennis over AI en Machine Learning die ik in Zuid-Afrika heb opgedaan, kwam goed van pas tijdens deze stage en sloot qua kennis perfect aan. Deze stage duurde tot januari 2024 en was de afsluiting van mijn HBO-ICT opleiding. Na mijn stage ben ik bij Gilde-BT Software gebleven als fulltime software engineer vanwege de goede werksfeer en de mogelijkheid om mezelf verder te ontwikkelen."
     },
     "future": {
       "info": "???",
-      "text": "Als softwareontwikkelaar ben ik enthousiast over de grenzeloze mogelijkheden die mijn toekomst in petto heeft en wil ik graag blijven leren en groeien in dit dynamische veld.",
+      "text": "Als software engineer ben ik enthousiast over de grenzeloze mogelijkheden die de toekomst biedt. Ik ben vastbesloten om te blijven leren en groeien in dit dynamische veld.",
       "year": "Toekomst"
-    } 
+    }
   },
   "skills": "Vaardigheden",
   "projects": {
     "header": "Projecten",
+    "learnmore_button": "Lees meer...",
+    "description_header": "Beschrijving",
+    "technologies_header": "Gebruikte technologieën",
+    "stakeholder_header": "Stakeholder",
     "safespace": {
       "logo": "images/safespace-logo.png",
       "title": "SafeSpace",

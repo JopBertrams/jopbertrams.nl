@@ -24,11 +24,11 @@
       <div class="text">
         <div class="text-container">
           <h2>SafeSpace</h2>
-          <p>
-            {$_('projects.safespace.short_description')}
-          </p>
-          <button on:click={() => showModal('safespace')}>Learn more...</button>
+          <p>{$_('projects.safespace.short_description')}</p>
         </div>
+        <button on:click={() => showModal('safespace')}
+          >{$_('projects.learnmore_button')}</button
+        >
       </div>
     </div>
     <div class="grid-item" data-aos="zoom-in-left">
@@ -36,8 +36,10 @@
         <div class="text-container">
           <h2>Chatbot</h2>
           <p>{$_('projects.chatbot.short_description')}</p>
-          <button on:click={() => showModal('chatbot')}>Learn more...</button>
         </div>
+        <button on:click={() => showModal('chatbot')}
+          >{$_('projects.learnmore_button')}</button
+        >
       </div>
     </div>
     <div class="grid-item" data-aos="zoom-in-right">
@@ -45,10 +47,10 @@
         <div class="text-container">
           <h2>FlightAssistant</h2>
           <p>{$_('projects.flightassistant.short_description')}</p>
-          <button on:click={() => showModal('flightassistant')}
-            >Learn more...</button
-          >
         </div>
+        <button on:click={() => showModal('flightassistant')}
+          >{$_('projects.learnmore_button')}</button
+        >
       </div>
     </div>
     <div class="grid-item" data-aos="zoom-in-left">
@@ -56,8 +58,10 @@
         <div class="text-container">
           <h2>LokaWin</h2>
           <p>{$_('projects.lokawin.short_description')}</p>
-          <button on:click={() => showModal('lokawin')}>Learn more...</button>
         </div>
+        <button on:click={() => showModal('lokawin')}
+          >{$_('projects.learnmore_button')}</button
+        >
       </div>
     </div>
     <div class="grid-item" data-aos="zoom-in-right">
@@ -65,10 +69,10 @@
         <div class="text-container">
           <h2>Smart Asset Tracking</h2>
           <p>{$_('projects.smartassettracking.short_description')}</p>
-          <button on:click={() => showModal('smartassettracking')}
-            >Learn more...</button
-          >
         </div>
+        <button on:click={() => showModal('smartassettracking')}
+          >{$_('projects.learnmore_button')}</button
+        >
       </div>
     </div>
     <div class="grid-item" data-aos="zoom-in-left">
@@ -76,8 +80,10 @@
         <div class="text-container">
           <h2>Car Rental</h2>
           <p>{$_('projects.carrental.short_description')}</p>
-          <button on:click={() => showModal('carrental')}>Learn more...</button>
         </div>
+        <button on:click={() => showModal('carrental')}
+          >{$_('projects.learnmore_button')}</button
+        >
       </div>
     </div>
     <!-- <div class="grid-item" data-aos="zoom-in-right">
@@ -85,7 +91,7 @@
         <div class="text-container">
           <h2>Kwetter</h2>
           <p>{$_('projects.kwetter.short_description')}</p>
-          <button on:click={() => showModal('kwetter')}>Learn more...</button>
+          <button on:click={() => showModal('kwetter')}>{$_('projects.learnmore_button')}</button>
         </div>
       </div>
     </div>
@@ -95,7 +101,7 @@
           <h2>De Oefenpraktijk</h2>
           <p>{$_('projects.oefenpraktijk.short_description')}</p>
           <button on:click={() => showModal('oefenpraktijk')}
-            >Learn more...</button
+            >{$_('projects.learnmore_button')}</button
           >
         </div>
       </div>
@@ -126,6 +132,7 @@
   }
 
   .grid-item {
+    position: relative;
     grid-column: span 2;
     display: flex;
     justify-content: center;
@@ -134,6 +141,21 @@
     background-color: #2e2e2e;
     border-radius: 10px;
     padding: 20px;
+  }
+
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
   }
 
   .grid-item:nth-last-child(1):nth-child(odd) {

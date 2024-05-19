@@ -12,9 +12,10 @@
   >
     <div class="image">
       <img src={globe} alt="hello" />
+      <span class="tooltiptext">{$_('introduction.tooltip')}</span>
     </div>
     <div class="text">
-      {$_('introduction')}
+      {$_('introduction.text')}
       <div class="socials">
         <a
           href="https://www.linkedin.com/in/jop-bertrams"
@@ -68,21 +69,22 @@
 
   .image {
     width: 30%;
-    height: 0;
-    padding-bottom: 20%;
-    margin: 2rem 0;
+    height: 75%;
     position: relative;
+    text-align: center;
   }
 
   .image img {
-    position: absolute;
-    width: 100%;
     height: 100%;
+  }
+
+  .image img:hover + .tooltiptext {
+    visibility: visible;
+    opacity: 1;
   }
 
   .text {
     padding: 2rem;
-    text-align: center;
     color: #ffffff;
     max-width: 40%;
   }
@@ -91,12 +93,32 @@
     margin-top: 1rem;
   }
 
+  .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -150px;
+
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
   @media screen and (max-width: 1270px) {
     .image {
       width: 50%;
-      height: 0;
-      padding-bottom: 30%;
+      height: 60%;
       position: relative;
+      text-align: center;
     }
   }
 
@@ -111,10 +133,9 @@
     }
 
     .image {
-      width: 50%;
-      height: 0;
-      padding-bottom: 40%;
+      width: 40%;
       position: relative;
+      margin-top: 2rem;
       margin-bottom: 0;
     }
 

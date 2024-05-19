@@ -1,11 +1,13 @@
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <script>
   // @ts-nocheck
-  import { _ } from 'svelte-i18n';
+  import { format, json } from 'svelte-i18n';
 
   export let project = '';
 
-  const images = $_('projects.' + project + '.images');
+  const images = $json('projects.' + project + '.images');
+  const descriptionParagraphs = $json('projects.' + project + '.description');
+  const usedTechnologies = $json('projects.' + project + '.technologies');
 
   const handleDotClick = (index) => {
     const modalImages = document.querySelectorAll('.modal .image');
@@ -97,10 +99,10 @@
 <div class="modal">
   <div class="header">
     <div class="logo">
-      <img src={$_('projects.' + project + '.logo')} alt="logo" />
+      <img src={$format('projects.' + project + '.logo')} alt="logo" />
     </div>
     <div class="title">
-      <h1>{$_('projects.' + project + '.title')}</h1>
+      <h1>{$format('projects.' + project + '.title')}</h1>
     </div>
   </div>
   {#each images as image, i}
@@ -162,22 +164,26 @@
     </button>
   </div>
   <div class="text">
-    <h2>Description</h2>
-    {#each $_('projects.' + project + '.description') as paragraph}
+    <h2>{$format('projects.description_header')}</h2>
+    {#each descriptionParagraphs as paragraph, i}
       <p>{paragraph}</p>
+      {#if i < descriptionParagraphs.length - 1}
+        <br />
+      {/if}
     {/each}
-    <h2>Used technologies</h2>
+    <h2>{$format('projects.technologies_header')}</h2>
     <ul>
-      {#each $_('projects.' + project + '.technologies') as technology}
+      {#each usedTechnologies as technology}
         <li>{technology}</li>
       {/each}
     </ul>
-    <h2>Stakeholder</h2>
+    <h2>{$format('projects.stakeholder_header')}</h2>
     <a
-      href={$_('projects.' + project + '.stakeholder_link')}
+      href={$format('projects.' + project + '.stakeholder_link')}
       target="_blank"
-      rel="noreferrer">{$_('projects.' + project + '.stakeholder')}</a
-    >
+      rel="noreferrer"
+      >{$format('projects.' + project + '.stakeholder')}
+    </a>
   </div>
 </div>
 
@@ -272,5 +278,9 @@
 
   a:focus {
     text-decoration: underline;
+  }
+
+  ul {
+    list-style-position: inside;
   }
 </style>
