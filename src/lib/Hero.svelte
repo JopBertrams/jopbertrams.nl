@@ -142,7 +142,9 @@
 
   .typing {
     width: 25ch;
-    animation: typing 2.5s steps(25), blink 0.5s step-end infinite alternate;
+    animation:
+      typing 2.5s steps(25),
+      blink 0.5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -279,10 +281,12 @@
 
   @media screen and (min-width: 551px) and (max-width: 850px) {
     .hero {
+      height: auto;
       flex-direction: column-reverse;
       justify-content: center;
       align-items: center;
       align-content: space-around;
+      padding-bottom: 2rem;
     }
 
     .hero-left {
@@ -314,6 +318,7 @@
       height: 400px;
       overflow: hidden;
       border-radius: 50%;
+      margin-top: 2rem;
     }
 
     .hero-image img {
